@@ -49,7 +49,7 @@ return (
     </nav>
 
     <main>
-        <section className="container border">
+        <section className="container border section">
             <div className="row gx-6 my-2">
                 {/* mx-auto + d-block center the image */}
                 {/* TODO: review the picture is not being centered */}
@@ -60,13 +60,13 @@ return (
                 </div>
                 <div className="col-md-6 text-center text-md-start border">
                     <h1 className="h1">Laura Valdenebro</h1>
-                    <p className="">Full-stack developer</p>
-                    <p className="">Highlight you passion💙</p>
+                    <p className="subtitle">Full-stack developer</p>
+                    <p className="motto">Highlight you passion💙</p>
                 </div>
             </div>
         </section>
 
-        <section className="container-fluid border about-me">
+        <section className="container-fluid border about-me section">
             <div className="row">
                 <h2 className="h2">About Me</h2>
                 <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
@@ -80,7 +80,7 @@ return (
             </div>
         </section>
 
-        <section className="container-fluid">
+        <section className="container-fluid section">
             <h2 className="h2">Tech Stack</h2>
                 {/* <!-- TODO: revisar la lista --> */}
                 <ul>
@@ -106,7 +106,7 @@ return (
                 </ul>
         </section>
 
-        <section className="container-fluid">
+        <section className="container-fluid section">
             <h2 className="h2">Projects</h2>
             {/* <!-- TODO: carrousel? POR todos los proyectos. Partial vacío--> */}
             <ul>
@@ -149,7 +149,7 @@ return (
             </ul>
         </section>
 
-        <section className="container-fluid">
+        <section className="container-fluid section">
             <h2 className="h2">Contact</h2>
             {/* <!-- TODO: carrousel? POR todos los proyectos. Partial vacío--> */}
             <ul>

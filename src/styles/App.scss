@@ -4,8 +4,12 @@
 
 //GENERAL
 *{
-    background-color: $light;
+    background-color: white;
     font-family: $font-basic;
+}
+
+.section {
+    padding: 20px;
 }
 
 .list {
@@ -50,7 +54,6 @@
 }
 
 .about-me {
-    padding: 20px;
     &_description{
         padding: 20px;
     }
@@ -58,4 +61,22 @@
 
 .footer {
     font-family: $font-basic;
+}
+
+.h1, .subtitle, .motto {
+    font-family: $font-title;
+}
+.h1 {
+    color: $dark;
+    font-size: 40px;
+    @media all and (min-width: 480px) {
+        font-size: 60px;
+    }
+}
+.subtitle, .motto {
+    color: $medium-dark;
+    font-size: 30px;
+    @media all and (min-width: 480px) {
+        font-size: 40px;
+    }
 }
