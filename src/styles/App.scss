@@ -1,6 +1,11 @@
+//IMPORTS
+@import "core/Reset";
+@import "core/Variables";
+
 //GENERAL
 *{
-    background-color:  ;
+    background-color: $light;
+    font-family: $font-basic;
 }
 
 .list {
@@ -9,14 +14,15 @@
 }
 
 .nav {
+    font-family: $font-basic;
     :hover {
-        color: #ada2ff
-    } 
+        color: $dark;
+    }
 }
 
 .nav-link {
     padding: 10px 15px 10px 15px;
-    color: black;
+    color: $black;
 }
 
 .circle {
@@ -41,4 +47,8 @@
 
 .logo {
     width: 50px;
+}
+
+.footer {
+    font-family: $font-basic;
 }

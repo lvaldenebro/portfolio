@@ -84,7 +84,8 @@ return (
             </div>
             <div className="row">              
             {/* <!-- TODO: ojo con el icono custom para el cv y su link --> */}
-                <p>Resumé</p></div>
+                <p>Resumé</p>
+            </div>
         </section>
 
         <section className="container-fluid">
@@ -184,7 +185,7 @@ return (
         </section>
     </main>
 
-    <footer className="container-fluid">
+    <footer className="container-fluid footer">
             {/* <!-- <nav> TODO: revisar los enlaces --> */}
         <nav class="nav flex-column">
             <a class="nav-link active" aria-current="page" href="#">About Me</a>
