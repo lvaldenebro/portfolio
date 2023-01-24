@@ -1,7 +1,12 @@
-// .list {
-//     list-style: none;
-//     display: inline;
-// }
+//GENERAL
+*{
+    background-color:  ;
+}
+
+.list {
+    list-style: none;
+    display: inline;
+}
 
 .nav {
     :hover {
@@ -14,3 +19,26 @@
     color: black;
 }
 
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    @media all and (min-width: 480px) {
+        width: 150px;
+        height: 150px;
+    }
+    @media all and (min-width: 768px) {
+        width: 250px;
+        height: 250px;
+    }
+    img {
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+.logo {
+    width: 50px;
+}
