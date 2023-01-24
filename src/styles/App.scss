@@ -49,6 +49,13 @@
     width: 50px;
 }
 
+.about-me {
+    padding: 20px;
+    &_description{
+        padding: 20px;
+    }
+}
+
 .footer {
     font-family: $font-basic;
 }

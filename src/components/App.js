@@ -48,17 +48,6 @@ return (
         </ul>
     </nav>
 
- {/* <header className="container-fluid border my-5">
-          <nav className="row border align-items-end gx-2">
-              <ul>
-                  <li className="col-sm-8 border justify-content-center list">About Me</li>
-                  <li className="col-sm-8 border justify-content-center list">Tech Stack</li>
-                  <li className="col-sm-8 border justify-content-center list">Projects</li>
-                  <li className="col-sm-8 border justify-content-center list">Contact</li>
-              </ul>
-          </nav>
-      </header> */}
-
     <main>
         <section className="container border">
             <div className="row gx-6 my-2">
@@ -70,26 +59,29 @@ return (
                     </div>
                 </div>
                 <div className="col-md-6 text-center text-md-start border">
-                    <h1>Laura Valdenebro</h1>
-                    <p>Full-stack developer</p>
-                    <p>Highlight you passion💙</p>
+                    <h1 className="h1">Laura Valdenebro</h1>
+                    <p className="">Full-stack developer</p>
+                    <p className="">Highlight you passion💙</p>
                 </div>
             </div>
         </section>
 
-        <section className="container-fluid border">
+        <section className="container-fluid border about-me">
             <div className="row">
-                <h2>About Me</h2>
-                <p>Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
+                <h2 className="h2">About Me</h2>
+                <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
             </div>
-            <div className="row">              
+            <div className="row text-center">              
             {/* <!-- TODO: ojo con el icono custom para el cv y su link --> */}
-                <p>Resumé</p>
+                <a href="#">
+                    <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
+                    <p className="about-me_resume">Resumé</p>
+                </a>
             </div>
         </section>
 
         <section className="container-fluid">
-            <h2>Tech Stack</h2>
+            <h2 className="h2">Tech Stack</h2>
                 {/* <!-- TODO: revisar la lista --> */}
                 <ul>
                     <li><img className="logo" src= { html } title="html" alt="html logo" /></li>
@@ -115,7 +107,7 @@ return (
         </section>
 
         <section className="container-fluid">
-            <h2>Projects</h2>
+            <h2 className="h2">Projects</h2>
             {/* <!-- TODO: carrousel? POR todos los proyectos. Partial vacío--> */}
             <ul>
                 <li>
@@ -158,7 +150,7 @@ return (
         </section>
 
         <section className="container-fluid">
-            <h2>Contact</h2>
+            <h2 className="h2">Contact</h2>
             {/* <!-- TODO: carrousel? POR todos los proyectos. Partial vacío--> */}
             <ul>
                 <li>
