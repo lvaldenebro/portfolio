@@ -11,6 +11,7 @@ body {
 //TODO: review if some mediaqueries can be done with boostrap
 
 .section {
+    margin-top: 20px;
     padding: 20px;
     @media all and (min-width: 480px) {
         padding: 20px 40px 20px 40px;
@@ -132,6 +133,9 @@ body {
 
 .credits {
     line-height: 20px;
+    @media all and (min-width: 576px) {
+        margin-top: 20px;
+    }
 }
 
 //HIGHLIGHTS
@@ -140,15 +144,15 @@ body {
     text-align: center;
     padding: 44px;
     color: #333;
-  }
-  .highlight-container, .highlight {
+}
+.highlight-container, .highlight {
     position: relative;
-  }
+}
   
-  .highlight-container {
+.highlight-container {
     display: inline-block;
-  }
-  .highlight-container:before {
+}
+.highlight-container:before {
     content: " ";
     display: block;
     height: 90%;
@@ -162,4 +166,45 @@ body {
     left: -1px;
     border-radius: 20% 25% 20% 24%;
     padding: 10px 3px 3px 10px;
-  }
+}
+
+.card {
+    width: 18rem;
+    border: 5px solid $dark;
+    border-radius: 15px;
+    padding: 5px;
+    &-title {
+        font-family: $font-title;
+    }
+    &-text {
+        margin-bottom: 10px;
+    }
+}
+
+.btn {
+    background-color: $medium-light;
+    border: none;
+    margin: 10px;
+}
+
+.carousel {
+    border: 5px solid $medium-dark;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80vw;
+}
+
+.logo-carousel {
+    width: 25px;
+}
+
+.row-projects {
+    margin-top: 20px;
+}
+
+.important-projects {
+    justify-content: space-around;
+    @media all and (max-width: 768px) {
+        gap: 30px;
+    }
+}
