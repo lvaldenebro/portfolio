@@ -66,9 +66,10 @@
 }
 
 .about-me {
-    &_description{
+    &_description {
         padding: 20px;
     }
+
 }
 
 .footer {
@@ -97,6 +98,7 @@
     text-decoration: none;
     padding: 10px 15px 10px 15px;
     color: $black;
+    width: 10vw;
 }
 .link:hover {
     color: $dark;

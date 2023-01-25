@@ -66,16 +66,16 @@ return (
             </div>
         </section>
 
-        <section className="container-fluid about-me section">
+        <section className="container-fluid about-me section border">
             <div className="row">
                 <h2 className="h2">About Me</h2>
                 <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
             </div>
-            <div className="row text-center">              
+            <div className="row text-center justify-content-center">              
             {/* <!-- TODO: ojo con el icono custom para el cv y su link --> */}
                 <a className="link" href="#">
                     <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
-                    <p className="about-me_resume">Resumé</p>
+                    <p>Resumé</p>
                 </a>
             </div>
         </section>
