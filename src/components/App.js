@@ -37,16 +37,16 @@ return (
     <nav>
         <ul class="nav justify-content-end nav-top">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                <a class="nav-link active" aria-current="page" href="#"><span class="highlight-container"><span class="highlight">About Me</span></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tech Stack</a>
+                <a class="nav-link" href="#"><span class="highlight-container"><span class="highlight">Tech Stack</span></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#"><span class="highlight-container"><span class="highlight">Projects</span></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#"><span class="highlight-container"><span class="highlight">Contact</span></span></a>
             </li>
         </ul>
     </nav>
@@ -64,26 +64,26 @@ return (
                 <div className="col-md-6 text-center text-md-start border">
                     <h1 className="h1">Laura Valdenebro</h1>
                     <p className="subtitle">Full-stack developer</p>
-                    <p className="motto">Highlight you passion💙</p>
+                    <p className="motto">Highlight your passion💙</p>
                 </div>
             </div>
         </section>
 
         <section className="container-fluid about-me section">
             <div className="row">
-                <h2 className="h2">About Me</h2>
+                <h2 className="h2"><span class="highlight-container"><span class="highlight">About Me</span></span></h2>
                 <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
             </div>
             <div className="row text-center justify-content-center">              
                 <a className="link" href="#">
                     <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
-                    <p>Resumé</p>
+                    <p><span class="highlight-container"><span class="highlight">Resumé</span></span></p>
                 </a>
             </div>
         </section>
 
         <section className="container-fluid tech-stack section">
-            <h2 className="h2">Tech Stack</h2>
+            <h2 className="h2"><span class="highlight-container"><span class="highlight">Tech Stack</span></span></h2>
                 {/* <!-- TODO: revisar la lista --> */}
                 <ul>
                     <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
@@ -109,7 +109,7 @@ return (
         </section>
 
         <section className="container-fluid section">
-            <h2 className="h2">Projects</h2>
+            <h2 className="h2"><span class="highlight-container"><span class="highlight">Projects</span></span></h2>
             {/* <!-- TODO: carrousel? POR todos los proyectos. Partial vacío--> */}
             <ul>
                 <li>
@@ -153,7 +153,7 @@ return (
 
         <section className="container-fluid contact section">
             <div className="row">
-            <h2 className="h2">Contact</h2>
+            <h2 className="h2"> <span class="highlight-container"><span class="highlight">Contact</span></span></h2>
             </div>
             <div className="row text-center">
             <ul>
@@ -188,10 +188,10 @@ return (
     <footer className="container-fluid footer section text-center">
         <div className="row">
             <nav class="nav col flex-column nav-bottom">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-                <a class="nav-link" href="#">Tech Stack</a>
-                <a class="nav-link" href="#">Projects</a>
-                <a class="nav-link"  href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="#"> <span class="highlight-container"><span class="highlight">About Me</span></span></a>
+                <a class="nav-link" href="#"> <span class="highlight-container"><span class="highlight">Tech Stack</span></span></a>
+                <a class="nav-link" href="#"> <span class="highlight-container"><span class="highlight">Projects</span></span></a>
+                <a class="nav-link"  href="#"> <span class="highlight-container"><span class="highlight">Contact</span></span></a>
             </nav>
 
             <div className="col credits">
