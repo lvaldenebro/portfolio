@@ -66,13 +66,12 @@ return (
             </div>
         </section>
 
-        <section className="container-fluid about-me section border">
+        <section className="container-fluid about-me section">
             <div className="row">
                 <h2 className="h2">About Me</h2>
                 <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
             </div>
             <div className="row text-center justify-content-center">              
-            {/* <!-- TODO: ojo con el icono custom para el cv y su link --> */}
                 <a className="link" href="#">
                     <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
                     <p>Resumé</p>
@@ -80,29 +79,29 @@ return (
             </div>
         </section>
 
-        <section className="container-fluid section">
+        <section className="container-fluid tech-stack section">
             <h2 className="h2">Tech Stack</h2>
                 {/* <!-- TODO: revisar la lista --> */}
                 <ul>
-                    <li><img className="logo" src= { html } title="html" alt="html logo" /></li>
-                    <li><img className="logo" src= { css } title="css" alt="css logo" /></li>
-                    <li><img className="logo" src= { sass } title="sass" alt="sass logo" /></li>
-                    <li><img className="logo" src= { js } title="js" alt="js logo" /></li>
-                    <li><img className="logo" src= { python } title="python" alt="python logo" /></li>
-                    <li><img className="logo" src= { bash } title="bash" alt="bash logo" /></li>
-                    <li><img className="logo" src= { git } title="git" alt="git logo" /></li>
-                    <li><img className="logo" src= { github } title="github" alt="github logo" /></li>
-                    <li><img className="logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
-                    <li><img className="logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
-                    <li><img className="logo" src= { sql } title="sql" alt="sql logo" /></li>
-                    <li><img className="logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
-                    <li><img className="logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
-                    <li><img className="logo" src= { canva } title="canva" alt="canva logo" /></li>
-                    <li><img className="logo" src= { react } title="react" alt="react logo" /></li>
-                    <li>APIs Rest</li>
-                    <li>Miro</li>
-                    <li>Agile</li>
-                    <li>Scrum</li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { css } title="css" alt="css logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { sass } title="sass" alt="sass logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { js } title="js" alt="js logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { python } title="python" alt="python logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { bash } title="bash" alt="bash logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { git } title="git" alt="git logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { github } title="github" alt="github logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { sql } title="sql" alt="sql logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
+                    <li className="list">APIs Rest</li>
+                    <li className="list">Miro</li>
+                    <li className="list">Agile</li>
+                    <li className="list">Scrum</li>
                 </ul>
         </section>
 

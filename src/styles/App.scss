@@ -8,8 +8,13 @@
     font-family: $font-basic;
 }
 
+//TODO: review if some mediaqueries can be done with boostrap
+
 .section {
     padding: 20px;
+    @media all and (min-width: 480px) {
+        padding: 20px 40px 20px 40px;
+    }
 }
 
 .list {
@@ -102,4 +107,8 @@
 }
 .link:hover {
     color: $dark;
+}
+
+.tech-stack-logo {
+    margin: 20px;
 }
