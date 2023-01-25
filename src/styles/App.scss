@@ -27,6 +27,7 @@ body {
     font-family: $font-basic;
     :hover {
         color: $dark;
+        font-size: 110%;
     }
 }
 
@@ -105,9 +106,10 @@ body {
     padding: 10px 15px 10px 15px;
     color: $black;
     width: 10vw;
-}
-.link:hover {
+    :hover {
     color: $dark;
+    font-size: 110%;
+    }
 }
 
 .tech-stack-logo {
@@ -185,6 +187,10 @@ body {
     background-color: $medium-light;
     border: none;
     margin: 10px;
+    &:hover {
+        font-size: 10%;
+        background-color: $medium-dark;
+    }
 }
 
 .carousel {
