@@ -10,6 +10,9 @@ import linkedin from '../images/linkedin.svg';
 import code from '../images/code.svg';
 import webPage from '../images/web-page.svg';
 
+//DOCUMENTS
+import cvPDF from '../documents/Valdenebro,Laura-JuniorFullstackDeveloper.pdf';
+
 //TechStack
 
 import bash from '../images/bash.svg';
@@ -148,46 +151,53 @@ return (
             </ul>
         </section>
 
-        <section className="container-fluid section">
+        <section className="container-fluid contact section">
+            <div className="row">
             <h2 className="h2">Contact</h2>
-            {/* <!-- TODO: carrousel? POR todos los proyectos. Partial vacío--> */}
+            </div>
+            <div className="row text-center">
             <ul>
-                <li>
-                    {/* <!-- TODO: dowload cv --> */}
-                    <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
-                    <p>Know me!</p>
+                <li className="list">
+                    <a className="link" href= {cvPDF} download>
+                    <img  className="logo contact-logo" src={ cv } title="CV" alt="Cv's icon" />
+                    <p className="contact-desc">Know me!</p>
+                    </a>
                 </li>
-                <li>
-                    {/* <!-- TODO: link --> */}
-                    <img  className="logo" src={ github } title= "GitHub" alt="Github's icon" />
-                    <p>Fork me!</p>
+                <li className="list">
+                    <a className="link" href="https://github.com/lvaldenebro">
+                    <img  className="logo contact-logo" src={ github } title= "GitHub" alt="Github's icon" />
+                    <p className="contact-desc">Fork me!</p>
+                    </a>
                 </li>
-                <li>
-                    {/* <!-- TODO: milto --> */}
-                    <img  className="logo" src= { email } title="email" alt="Email's icon" />
-                    <p>Contact me!</p>
+                <li className="list">
+                    <a className="link" href="mailto:lauravaldeal@gmai.com">
+                    <img  className="logo contact-logo" src= { email } title="email" alt="Email's icon" />
+                    <p className="contact-desc">Contact me!</p>
+                    </a>
                 </li>
-                <li>
-                    {/* <!-- TODO: link --> */}
-                    <img  className="logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
-                    <p>Hire me!</p>
+                <li className="list">
+                    <a className="link" href="https://www.linkedin.com/in/laura-valdenebro/">
+                    <img  className="logo contact-logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
+                    <p className="contact-desc">Hire me!</p>
+                    </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
+    <footer className="container-fluid footer section text-center">
+        <div className="row">
+            <nav class="nav col flex-column nav-bottom">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                <a class="nav-link" href="#">Tech Stack</a>
+                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link"  href="#">Contact</a>
+            </nav>
 
-    <footer className="container-fluid footer">
-            {/* <!-- <nav> TODO: revisar los enlaces --> */}
-        <nav class="nav flex-column">
-            <a class="nav-link active" aria-current="page" href="#">About Me</a>
-            <a class="nav-link" href="#">Tech Stack</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link"  href="#">Contact</a>
-        </nav>
-
-        <div>
-            <p>Designed and built by Laura Valdenebro | 2023</p>
-            <p>Highlight your passion!💙</p>
+            <div className="col credits">
+                <p>Designed and built by Laura Valdenebro | 2023</p>
+                <p>Highlight your passion!💙</p>
+            </div>
         </div>
     </footer>
 
