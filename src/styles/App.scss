@@ -4,7 +4,7 @@
 
 //GENERAL
 *{
-    background-color: white;
+    background-color: $light;
     font-family: $font-basic;
 }
 
@@ -29,6 +29,13 @@
     color: $black;
 }
 
+.nav-top {
+    font-size: 10px;
+    @media all and (min-width: 480px) {
+        font-size: medium;
+    }
+}
+
 .circle {
     width: 100px;
     height: 100px;
@@ -51,6 +58,11 @@
 
 .logo {
     width: 50px;
+}
+
+.introduction-div {
+    height: 95vh;
+    align-items: center;
 }
 
 .about-me {
@@ -79,4 +91,13 @@
     @media all and (min-width: 480px) {
         font-size: 40px;
     }
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    color: $black;
+}
+.link:hover {
+    color: $dark;
 }

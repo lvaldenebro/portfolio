@@ -32,7 +32,7 @@ function App() {
 return (
     <div>
     <nav>
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-end nav-top">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">About Me</a>
             </li>
@@ -49,8 +49,8 @@ return (
     </nav>
 
     <main>
-        <section className="container border section">
-            <div className="row gx-6 my-2">
+        <section className="container border">
+            <div className="row gx-6 my-2 introduction-div">
                 {/* mx-auto + d-block center the image */}
                 {/* TODO: review the picture is not being centered */}
                 <div className="col-md-6 text-center text-md-start border">
@@ -66,14 +66,14 @@ return (
             </div>
         </section>
 
-        <section className="container-fluid border about-me section">
+        <section className="container-fluid about-me section">
             <div className="row">
                 <h2 className="h2">About Me</h2>
                 <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
             </div>
             <div className="row text-center">              
             {/* <!-- TODO: ojo con el icono custom para el cv y su link --> */}
-                <a href="#">
+                <a className="link" href="#">
                     <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
                     <p className="about-me_resume">Resumé</p>
                 </a>
