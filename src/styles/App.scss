@@ -116,6 +116,12 @@ body {
     margin: 20px;
 }
 
+.tech-stack-nologo {
+    margin: 20px;
+    background-color: $medium-light;
+    font-weight: 800;
+}
+
 .contact-desc {
     display: inline;
 }
@@ -177,6 +183,7 @@ body {
     padding: 5px;
     &-title {
         font-family: $font-title;
+        font-size: large;
     }
     &-text {
         margin-bottom: 10px;

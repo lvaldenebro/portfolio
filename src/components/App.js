@@ -35,6 +35,8 @@ import sass from '../images/sass.svg';
 import sql from '../images/sql.svg';
 import sqlite from '../images/sqlite.svg';
 import zeplin from '../images/zeplin.svg';
+// import restApi from '../images/rest-api.svg';
+import miro from '../images/miro.png';
 
 import cv from '../images/cv.svg';
 import github from '../images/github.svg';
@@ -114,10 +116,10 @@ return (
                     <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
                     <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
                     <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
-                    <li className="list">APIs Rest</li>
-                    <li className="list">Miro</li>
-                    <li className="list">Agile</li>
-                    <li className="list">Scrum</li>
+                    <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
+                    <li className="list tech-stack-nologo">RESTful APIs</li>
+                    <li className="list tech-stack-nologo">Agile</li>
+                    <li className="list tech-stack-nologo">Scrum</li>
                 </ul>
         </section>
 
