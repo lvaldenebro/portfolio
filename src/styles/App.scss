@@ -25,7 +25,7 @@ body {
 
 .nav {
     font-family: $font-basic;
-    :hover {
+    &:hover,:visited,:active {
         color: $dark;
         font-size: 110%;
     }
@@ -106,7 +106,7 @@ body {
     padding: 10px 15px 10px 15px;
     color: $black;
     width: 10vw;
-    :hover {
+    &:hover,:visited,:active {
     color: $dark;
     font-size: 110%;
     }
@@ -187,9 +187,9 @@ body {
     background-color: $medium-light;
     border: none;
     margin: 10px;
-    &:hover {
+    &:hover,:visited,:active {
         font-size: 10%;
-        background-color: $medium-dark;
+        background-color: $medium-light;
     }
 }
 

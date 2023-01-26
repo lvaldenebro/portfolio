@@ -56,10 +56,10 @@ return (
 
     <main>
         <section className="container border">
-            <div className="row gx-6 my-2 introduction-div">
+            <div className="row introduction-div">
                 {/* mx-auto + d-block center the image */}
                 {/* TODO: review the picture is not being centered */}
-                <div className="col-md-6 text-center text-md-start border">
+                <div className="col-md-6 border circle-box">
                     <div className="circle">
                         <img className="img" src= {avatar} title="Laura" alt="Laura Valdenebro" />
                     </div>
