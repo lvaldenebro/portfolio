@@ -71,12 +71,12 @@ return (
             <div className="row introduction-div">
                 {/* mx-auto + d-block center the image */}
                 {/* TODO: review the picture is not being centered */}
-                <div className="col-md-6 circle-box">
+                <div className=" col-12 col-md-6 circle-box">
                     <div className="circle">
                         <img className="img" src= {avatar} title="Laura" alt="Laura Valdenebro" />
                     </div>
                 </div>
-                <div className="col-md-6 text-center text-md-start">
+                <div className="col-12 col-md-6 text-center text-md-start">
                     <h1 className="h1">Laura Valdenebro</h1>
                     <p className="subtitle">Full-stack developer</p>
                     <p className="motto">Highlight your passion💙</p>
@@ -86,114 +86,138 @@ return (
 
         <section id="about-me" className="container-fluid about-me section">
             <div className="row">
-                <h2 className="h2"><span className="highlight-container"><span className="highlight">About Me</span></span></h2>
-                <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
+                <div className="col">
+                    <h2 className="h2"><span className="highlight-container"><span className="highlight">About Me</span></span></h2>
+                    <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
+                </div>
             </div>
-            <div className="row text-center justify-content-center">              
-                <a className="link" href="#">
-                    <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
-                    <p><span className="highlight-container"><span className="highlight">Resumé</span></span></p>
-                </a>
+            {/* TODO: REVIEW SIZING RESUMË */}
+            <div className="row text-center justify-content-center">
+                <div className="col">              
+                    <a className="link" href="#">
+                        <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
+                        <p><span className="highlight-container"><span className="highlight">Resumé</span></span></p>
+                    </a>
+                </div>
             </div>
         </section>
 
         <section id="tech-stack" className="container-fluid tech-stack section">
-            <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
-                {/* <!-- TODO: revisar la lista --> */}
-                <ul>
-                    <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { css } title="css" alt="css logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { sass } title="sass" alt="sass logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { js } title="js" alt="js logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { python } title="python" alt="python logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { bash } title="bash" alt="bash logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { git } title="git" alt="git logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { github } title="github" alt="github logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { sql } title="sql" alt="sql logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
-                    <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
-                    <li className="list tech-stack-nologo">RESTful APIs</li>
-                    <li className="list tech-stack-nologo">Agile</li>
-                    <li className="list tech-stack-nologo">Scrum</li>
-                </ul>
+            <div className="row">
+                <div className="column">
+                    <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
+                </div>
+            </div>
+                {/* <!-- TODO: LISTA CON PALABRAS --> */}
+            <div className="row">
+                <div className="column">
+                    <ul>
+                        <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { css } title="css" alt="css logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { sass } title="sass" alt="sass logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { js } title="js" alt="js logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { python } title="python" alt="python logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { bash } title="bash" alt="bash logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { git } title="git" alt="git logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { github } title="github" alt="github logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { sql } title="sql" alt="sql logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
+                        <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
+                        <li className="list tech-stack-nologo">RESTful APIs</li>
+                        <li className="list tech-stack-nologo">Agile</li>
+                        <li className="list tech-stack-nologo">Scrum</li>
+                    </ul>
+                </div>
+            </div>    
         </section>
 
         <section id="projects" className="container-fluid section">
             <div className="row row-projects">
-                <h2 className="h2"><span className="highlight-container"><span className="highlight">Projects</span></span></h2>
+                <div className="col">
+                    <h2 className="h2"><span className="highlight-container"><span className="highlight">Projects</span></span></h2>
+                </div>
             </div>
+
             <div className="row row-projects important-projects">
-
-            <div className="card text-center">
-                    <img src={bookHostel} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">BookHostel (under construction)</h5>
-                        <p className="card-text">A page in which exchange freely your old books</p>
-                        <hr />
-                        <p className="card-text">HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB</p>
-                        <hr />
-                        {/* <a className="btn btn-primary" href="#">
-                            <img  className="logo" src={ webPage } alt="Demo" />
-                        </a> */}
-                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/book-hostel">
-                            <img  className="logo" src={ code } alt="Web page's code" />
-                        </a>
+                <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="card text-center">
+                        <img src={bookHostel} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">BookHostel (under construction)</h5>
+                            <p className="card-text">A page in which exchange freely your old books</p>
+                            <hr />
+                            <p className="card-text">HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB</p>
+                            <hr />
+                            {/* <a className="btn btn-primary" href="#">
+                                <img  className="logo" src={ webPage } alt="Demo" />
+                            </a> */}
+                            <a className="btn btn-primary" href="https://github.com/lvaldenebro/book-hostel">
+                                <img  className="logo" src={ code } alt="Web page's code" />
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-            <div className="card text-center">
-                    <img src={portfolio} className="card-img-top" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">Porfolio (Welcome to the v 1.0!)</h5>
-                        <p className="card-text">Portfolio actively being improved to show what I can do</p>
-                        <hr />
-                        <p className="card-text">HTML5 | Sass | React | Bootstrap</p>
-                        <hr />
-                        <a className="btn btn-primary" href="www.lauravaldenebro.com">
-                            <img  className="logo" src={ webPage } alt="Demo" />
-                        </a>
-                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/portfolio">
-                            <img  className="logo" src={ code } alt="Web page's code" />
-                        </a>
+                <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="card text-center">
+                        <img src={portfolio} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Porfolio (Welcome to the v 1.0!)</h5>
+                            <p className="card-text">Portfolio actively being improved to show what I can do</p>
+                            <hr />
+                            <p className="card-text">HTML5 | Sass | React | Bootstrap</p>
+                            <hr />
+                            <a className="btn btn-primary" href="www.lauravaldenebro.com">
+                                <img  className="logo" src={ webPage } alt="Demo" />
+                            </a>
+                            <a className="btn btn-primary" href="https://github.com/lvaldenebro/portfolio">
+                                <img  className="logo" src={ code } alt="Web page's code" />
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div className="card text-center">
-                    <img src={ bbSearcher } className="card-img-top" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">Breaking bad, dead or alive?</h5>
-                        <p className="card-text">Breaking Bad based character searcher</p>
-                        <hr />
-                        <p className="card-text">HTML5 | Sass | JS | localeStorage | API Rest</p>
-                        <hr />
-                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/breaking-bad-character-searcher-js/">
-                            <img  className="logo" src={ webPage } alt="Demo" />
-                        </a>
-                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/breaking-bad-character-searcher-js">
-                            <img  className="logo" src={ code } alt="Web page's code" />
-                        </a>
+                    
+                <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="card text-center">
+                        <img src={ bbSearcher } className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Breaking bad, dead or alive?</h5>
+                            <p className="card-text">Breaking Bad based character searcher</p>
+                            <hr />
+                            <p className="card-text">HTML5 | Sass | JS | localeStorage | API Rest</p>
+                            <hr />
+                            <a className="btn btn-primary" href="https://lvaldenebro.github.io/breaking-bad-character-searcher-js/">
+                                <img  className="logo" src={ webPage } alt="Demo" />
+                            </a>
+                            <a className="btn btn-primary" href="https://github.com/lvaldenebro/breaking-bad-character-searcher-js">
+                                <img  className="logo" src={ code } alt="Web page's code" />
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div className="card text-center">
-                    <img src={ rmSearcher } className="card-img-top" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">Rick and Morty, who is what?</h5>
-                        <p className="card-text">Rick and Morty's based character searcher</p>
-                        <hr />
-                        <p className="card-text">HTML5 | Sass | React | React Router | localStorage | API Rest</p>
-                        <hr />
-                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/rick-morty-character-searcher-react/">
-                            <img  className="logo" src={ webPage } alt="Demo" />
-                        </a>
-                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/rick-morty-character-searcher-react">
-                            <img  className="logo" src={ code } alt="Web page's code" />
-                        </a>
+                <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="card text-center">
+                        <img src={ rmSearcher } className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Rick and Morty, who is what?</h5>
+                            <p className="card-text">Rick and Morty's based character searcher</p>
+                            <hr />
+                            <p className="card-text">HTML5 | Sass | React | React Router | localStorage | API Rest</p>
+                            <hr />
+                            <a className="btn btn-primary" href="https://lvaldenebro.github.io/rick-morty-character-searcher-react/">
+                                <img  className="logo" src={ webPage } alt="Demo" />
+                            </a>
+                            <a className="btn btn-primary" href="https://github.com/lvaldenebro/rick-morty-character-searcher-react">
+                                <img  className="logo" src={ code } alt="Web page's code" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -202,6 +226,8 @@ return (
 
 {/* 
 carousel -- for less important projects*/}
+{/* 
+TODO:SMALLER CAROUSEL + color in the back of the title*/}
             <div className="row row-projects justify-content-center">
                 <div id="carouselExampleDark" className="carousel carousel-dark slide">
                 <div className="carousel-indicators">
@@ -326,46 +352,48 @@ carousel */}
 
         <section id="contact"className="container-fluid contact section">
             <div className="row">
-                <h2 className="h2"><span className="highlight-container"><span className="highlight">Contact</span></span></h2>
+                <div className="col">
+                    <h2 className="h2"><span className="highlight-container"><span className="highlight">Contact</span></span></h2>
+                </div>
             </div>
             <div className="row text-center">
-                <ul>
-                    <li className="list">
-                        <a className="link" href= {cvPDF} download>
-                            <img  className="logo contact-logo" src={ cv } title="CV" alt="Cv's icon" />
-                            <p className="contact-desc">Know me!</p>
-                        </a>
-                    </li>
-                    <li className="list">
-                        <a className="link" href="https://github.com/lvaldenebro">
-                            <img  className="logo contact-logo" src={ github } title= "GitHub" alt="Github's icon" />
-                            <p className="contact-desc">Fork me!</p>
-                        </a>
-                    </li>
-                    <li className="list">
-                        <a className="link" href="mailto:lauravaldeal@gmai.com">
-                            <img  className="logo contact-logo" src= { email } title="email" alt="Email's icon" />
-                            <p className="contact-desc">Contact me!</p>
-                        </a>
-                    </li>
-                    <li className="list">
-                        <a className="link" href="https://www.linkedin.com/in/laura-valdenebro/">
-                            <img  className="logo contact-logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
-                            <p className="contact-desc">Hire me!</p>
-                        </a>
-                    </li>
-                </ul>
+                <div className="col-12 col-sm-6 col-md-3">
+                    <a className="link" href= {cvPDF} download>
+                        <img  className="logo contact-logo" src={ cv } title="CV" alt="Cv's icon" />
+                        <p className="contact-desc">Know me!</p>
+                    </a>
+                </div>
+                <div className="col-12 col-sm-6 col-md-3">
+                    <a className="link" href="https://github.com/lvaldenebro">
+                        <img  className="logo contact-logo" src={ github } title= "GitHub" alt="Github's icon" />
+                        <p className="contact-desc">Fork me!</p>
+                    </a>
+                </div>
+                <div className="col-12 col-sm-6 col-md-3">
+                    <a className="link" href="mailto:lauravaldeal@gmai.com">
+                        <img  className="logo contact-logo" src= { email } title="email" alt="Email's icon" />
+                        <p className="contact-desc">Contact me!</p>
+                    </a>
+                </div>
+                <div className="col-12 col-sm-6 col-md-3">
+                    <a className="link" href="https://www.linkedin.com/in/laura-valdenebro/">
+                        <img  className="logo contact-logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
+                        <p className="contact-desc">Hire me!</p>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
     <footer className="container-fluid footer section text-center">
         <div className="row">
-            <nav className="nav col flex-column nav-bottom">
-                <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
-                <a className="nav-link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
-                <a className="nav-link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
-                <a className="nav-link"  href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
-            </nav>
+            <div className="col">
+                <nav className="nav col flex-column nav-bottom">
+                    <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
+                    <a className="nav-link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
+                    <a className="nav-link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
+                    <a className="nav-link"  href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
+                </nav>
+            </div>
 
             <div className="col credits">
                 <p>Designed and built by Laura Valdenebro | 2023</p>
