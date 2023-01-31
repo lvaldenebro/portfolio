@@ -115,7 +115,7 @@ return (
                         <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row text-center">
                     <div className="column">
                         <ul>
                             <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
@@ -147,7 +147,7 @@ return (
                     </div>
                 </div>
                 <div className="row">
-                    <div className="column">
+                    <div className="column text-center">
                         {/* REVIEW LIST MANAGEMENT WITH BOOSTRAP */}
                         <ul>
                             <li className="badge rounded-pill text-bg-skills">Agile</li>
