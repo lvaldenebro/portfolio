@@ -76,14 +76,13 @@ return (
         <main>
             <section className="container-fluid paper-background">
                 <div className="row introduction-div">
-                    {/* mx-auto + d-block center the image */}
                     {/* TODO: review the picture is not being centered */}
-                    <div className=" col-12 col-md-6 circle-box">
+                    <div className="col-12 col-lg-6 circle-box">
                         <div className="circle">
                             <img className="img" src= {avatar} title="Laura" alt="Laura Valdenebro" />
                         </div>
                     </div>
-                    <div className="col-12 col-md-6 text-center text-md-start">
+                    <div className="col-12 col-lg-6 text-center text-md-start">
                         <h1 className="h1">Laura Valdenebro</h1>
                         <p className="subtitle">Full-stack developer</p>
                         <p className="motto">Highlight your passion💙</p>
