@@ -100,9 +100,9 @@ return (
                 </div>
                 {/* TODO: REVIEW SIZING RESUMË */}
                 <div className="row text-center justify-content-center">
-                    <div className="col">
+                    <div className="col btn btn-wo-background">
                         {/* TODO: REACT ROUTER   */}
-                        <a className="link btn" href="">
+                        <a className="link" href="">
                             <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
                             <p><span className="highlight-container"><span className="highlight">Resumé</span></span></p>
                         </a>
@@ -345,25 +345,25 @@ return (
                     </div>
                 </div>
                 <div className="row text-center">
-                    <div className="col-12 col-sm-6 col-md-3">
+                    <div className="col-12 col-sm-6 col-md-3 btn btn-wo-background">
                         <a className="link btn" href= {cvPDF} download>
                             <img  className="logo contact-logo" src={ cv } title="CV" alt="Cv's icon" />
                             <p className="contact-desc">Know me!</p>
                         </a>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-3">
+                    <div className="col-12 col-sm-6 col-md-3 btn btn-wo-background">
                         <a className="link btn" href="https://github.com/lvaldenebro">
                             <img  className="logo contact-logo" src={ github } title= "GitHub" alt="Github's icon" />
                             <p className="contact-desc">Fork me!</p>
                         </a>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-3">
+                    <div className="col-12 col-sm-6 col-md-3 btn btn-wo-background">
                         <a className="link btn" href="mailto:lauravaldeal@gmai.com">
                             <img  className="logo contact-logo" src= { email } title="email" alt="Email's icon" />
                             <p className="contact-desc">Contact me!</p>
                         </a>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-3">
+                    <div className="col-12 col-sm-6 col-md-3 btn btn-wo-background">
                         <a className="link btn" href="https://www.linkedin.com/in/laura-valdenebro/">
                             <img  className="logo contact-logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
                             <p className="contact-desc">Hire me!</p>

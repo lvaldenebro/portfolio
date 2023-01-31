@@ -26,14 +26,15 @@ body {
 .nav {
     font-family: $font-basic;
     color: $basic;
+}
+
+.nav-link {
+    color: $basic;
+    padding: 10px 15px 10px 15px;
     &:hover,:visited,:active {
         color: $dark;
         font-size: 110%;
     }
-}
-
-.nav-link {
-    padding: 10px 15px 10px 15px;
 }
 
 .nav-top {
@@ -207,6 +208,12 @@ body {
         background-color: $medium-dark;
         border-radius: 5px;
         transform: scale(150%);
+    }
+}
+
+.btn-wo-background {
+    :hover,:visited,:active {
+        transform: scale(120%);
     }
 }
 
