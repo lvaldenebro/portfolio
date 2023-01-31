@@ -116,7 +116,6 @@ return (
                         <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
                     </div>
                 </div>
-                    {/* <!-- TODO: LISTA CON PALABRAS --> */}
                 <div className="row">
                     <div className="column">
                         <ul>
@@ -137,8 +136,6 @@ return (
                             <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
                             <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
                             <li className="list tech-stack-nologo">RESTful APIs</li>
-                            <li className="list tech-stack-nologo">Agile</li>
-                            <li className="list tech-stack-nologo">Scrum</li>
                         </ul>
                     </div>
                 </div>    
@@ -147,32 +144,22 @@ return (
             <section id="soft-skills" className="container-fluid soft-skills section paper-background">
                 <div className="row">
                     <div className="column">
-                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
+                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Soft skills</span></span></h2>
                     </div>
                 </div>
-                    {/* <!-- TODO: LISTA CON PALABRAS --> */}
                 <div className="row">
                     <div className="column">
+                        {/* REVIEW LIST MANAGEMENT WITH BOOSTRAP */}
                         <ul>
-                            <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { css } title="css" alt="css logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { sass } title="sass" alt="sass logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { js } title="js" alt="js logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { python } title="python" alt="python logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { bash } title="bash" alt="bash logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { git } title="git" alt="git logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { github } title="github" alt="github logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { sql } title="sql" alt="sql logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
-                            <li className="list tech-stack-nologo">RESTful APIs</li>
                             <li className="list tech-stack-nologo">Agile</li>
                             <li className="list tech-stack-nologo">Scrum</li>
+                            <li className="list tech-stack-nologo">Communication</li>
+                            <li className="list tech-stack-nologo">Computational thinking</li>
+                            <li className="list tech-stack-nologo">Team worker</li>
+                            <li className="list tech-stack-nologo">Remote work</li>
+                            <li className="list tech-stack-nologo">Out of the box thinker</li>
+                            <li className="list tech-stack-nologo">Motivation</li>
+                            <li className="list tech-stack-nologo">Passion</li>
                         </ul>
                     </div>
                 </div>    
