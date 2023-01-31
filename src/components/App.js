@@ -49,7 +49,7 @@ import webPage from '../images/web-page.svg';
 function App() {
 return (
     <div>
-        <header>
+        <header className="header">
             {/* TODO: fix hamburguer menu */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
@@ -74,7 +74,7 @@ return (
         </header>
 
         <main>
-            <section className="container">
+            <section className="container-fluid paper-background">
                 <div className="row introduction-div">
                     {/* mx-auto + d-block center the image */}
                     {/* TODO: review the picture is not being centered */}
@@ -110,7 +110,7 @@ return (
                 </div>
             </section>
 
-            <section id="tech-stack" className="container-fluid tech-stack section">
+            <section id="tech-stack" className="container-fluid tech-stack section paper-background">
                 <div className="row">
                     <div className="column">
                         <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
@@ -144,7 +144,41 @@ return (
                 </div>    
             </section>
 
-            <section id="projects" className="container-fluid section">
+            <section id="soft-skills" className="container-fluid soft-skills section paper-background">
+                <div className="row">
+                    <div className="column">
+                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
+                    </div>
+                </div>
+                    {/* <!-- TODO: LISTA CON PALABRAS --> */}
+                <div className="row">
+                    <div className="column">
+                        <ul>
+                            <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { css } title="css" alt="css logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { sass } title="sass" alt="sass logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { js } title="js" alt="js logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { python } title="python" alt="python logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { bash } title="bash" alt="bash logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { git } title="git" alt="git logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { github } title="github" alt="github logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { sql } title="sql" alt="sql logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
+                            <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
+                            <li className="list tech-stack-nologo">RESTful APIs</li>
+                            <li className="list tech-stack-nologo">Agile</li>
+                            <li className="list tech-stack-nologo">Scrum</li>
+                        </ul>
+                    </div>
+                </div>    
+            </section>
+
+            <section id="projects" className="container-fluid section projects">
                 <div className="row row-projects">
                     <div className="col">
                         <h2 className="h2"><span className="highlight-container"><span className="highlight">Projects</span></span></h2>
@@ -338,7 +372,7 @@ return (
     carousel */}
             </section>
 
-            <section id="contact"className="container-fluid contact section">
+            <section id="contact"className="container-fluid contact section paper-background">
                 <div className="row">
                     <div className="col">
                         <h2 className="h2"><span className="highlight-container"><span className="highlight">Contact</span></span></h2>

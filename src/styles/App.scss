@@ -6,6 +6,14 @@
 body {
     background-color: $light;
     font-family: $font-basic;
+    color: $basic;
+}
+
+//BACKGROUND
+.paper-background {
+    background-color: #ffffff;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #ececec, #ececec 1px, #ffffff 1px, #ffffff);
 }
 
 //TODO: review if some mediaqueries can be done with boostrap
@@ -189,6 +197,9 @@ body {
     &-text {
         margin-bottom: 10px;
     }
+}
+
+.projects {
 }
 
 .btn-imp-projects {
