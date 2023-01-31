@@ -4,7 +4,8 @@
 
 //GENERAL
 body {
-    background-color: $light;
+    //TODO: Add ececec to variables
+    background-color: $background-light;
     font-family: $font-basic;
     color: $basic;
 }
@@ -13,7 +14,7 @@ body {
 .paper-background {
     background-color: #ffffff;
     background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, #ececec, #ececec 1px, #ffffff 1px, #ffffff);
+    background-image:  repeating-linear-gradient(0deg, $background-light, $background-light 1px, #ffffff 1px, #ffffff);
 }
 
 //TODO: review if some mediaqueries can be done with boostrap
@@ -178,12 +179,11 @@ body {
     line-height: 1.4;
     text-align: center;
     padding: 44px;
-    color: #333;
 }
 .highlight-container, .highlight {
     position: relative;
 }
-  
+
 .highlight-container {
     display: inline-block;
 }
