@@ -173,7 +173,8 @@ return (
 
                 <div className="row row-projects important-projects">
                     <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card text-center">
+                        <div className="card mx-auto">
+                            {/* mx-auto to center the card */}
                             <img src={bookHostel} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">BookHostel (under construction)</h5>
@@ -192,7 +193,7 @@ return (
                     </div>
 
                     <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card text-center">
+                        <div className="card mx-auto">
                             <img src={portfolio} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Porfolio (Welcome to the v 1.0!)</h5>
@@ -212,7 +213,7 @@ return (
 
                         
                     <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card text-center">
+                        <div className="card mx-auto">
                             <img src={ bbSearcher } className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Breaking bad, dead or alive?</h5>
@@ -231,7 +232,7 @@ return (
                     </div>
 
                     <div className="col-12 col-sm-6 col-xl-3 mb-5">
-                        <div className="card text-center">
+                        <div className="card mx-auto">
                             <img src={ rmSearcher } className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Rick and Morty, who is what?</h5>
@@ -258,7 +259,7 @@ return (
     TODO:SMALLER CAROUSEL + color in the back of the title*/}
                 <div className="row">
                     <div className="column">
-                        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleAutoplaying" className="carousel slide mx-auto" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src={ landingPage } className="d-block w-100" alt="..."/>
