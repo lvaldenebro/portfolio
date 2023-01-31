@@ -53,7 +53,7 @@ return (
             {/* TODO: fix hamburguer menu */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="nav justify-content-end nav-top navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
@@ -235,126 +235,106 @@ return (
     carousel -- for less important projects*/}
     {/* 
     TODO:SMALLER CAROUSEL + color in the back of the title*/}
-                <div className="row row-projects justify-content-center">
-                    <div id="carouselExampleDark" className="carousel carousel-dark slide">
-                    <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <div className="row">
+                    <div className="column">
+                        <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img src={ landingPage } className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">Landing Page</h5>
+                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/landing-page/">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/landing-page">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
 
-                    </div>
+                                <div className="carousel-item">
+                                    <img src={ criaturesBattle } className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">Criature's battle</h5>
+                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/creatures-battle/">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/creatures-battle">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
 
-                    <div className="carousel-inner">
+                                <div className="carousel-item">
+                                    <img src={ reactRefactor } className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">React Refactor Challenge</h5>
+                                        <a className="btn btn-primary" href="https://react-refactor-challenge-production.up.railway.app/">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/react-refactor-challenge">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
 
-                        <div className="carousel-item active" data-bs-interval="10000">
-                            <img src={ landingPage } className="d-block w-100" alt="..."/>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Criature's battle</h5>
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/landing-page/">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/landing-page">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
+                                <div className="carousel-item">
+                                    <img src={ minionGenerator } className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">Minion Card Generator</h5>
+                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/minion-card-generator/">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/minion-card-generator">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="carousel-item">
+                                    <img src={ introductoryLanding } className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">Team Introduction Landing</h5>
+                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/team-introduction-landing/">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/team-introduction-landing">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="carousel-item">
+                                    <img src={ adalaberManagement } className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">Adalaber's Info Management</h5>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/adalaber-management">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/adalaber-management/">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="carousel-item" data-bs-interval="2000">
+                                    <img src={ simpleLandingPage } className="d-block w-100" alt="..." />
+                                    <div className="carousel-caption d-none d-md-block">
+                                        <h5 className="carousel-projects-title">Simple Landing Page</h5>
+                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/simple-landing-page/">
+                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
+                                        </a>
+                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/simple-landing-page">
+                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div className="carousel-item">
-                            <img src={ criaturesBattle } className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Criature's battle</h5>
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/creatures-battle/">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/creatures-battle">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="carousel-item">
-                            <img src={ reactRefactor } className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>React Refactor Challenge</h5>
-                                <a className="btn btn-primary" href="https://react-refactor-challenge-production.up.railway.app/">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/react-refactor-challenge">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="carousel-item">
-                            <img src={ minionGenerator } className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Minion Card Generator</h5>
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/minion-card-generator/">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/minion-card-generator">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="carousel-item">
-                            <img src={ introductoryLanding } className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Team Introduction Landing</h5>
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/team-introduction-landing/">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/team-introduction-landing">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="carousel-item">
-                            <img src={ adalaberManagement } className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Adalaber's Info Management</h5>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/adalaber-management">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/adalaber-management/">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <img src={ simpleLandingPage } className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Simple Landing Page</h5>
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/simple-landing-page/">
-                                    <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/simple-landing-page">
-                                    <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
                     </div>
                 </div>
     {/* 
     carousel */}
-                
             </section>
 
             <section id="contact"className="container-fluid contact section">

@@ -204,11 +204,22 @@ body {
     border: 5px solid $medium-dark;
     border-radius: 15px;
     padding: 10px;
-    width: 80vw;
+    width: 70vw;
+    @media all and (min-width: 1200px) {
+        width: 40vw;
+    }
 }
 
 .logo-carousel {
     width: 25px;
+}
+
+.carousel-projects-title {
+    background-color: $basic;
+    color: $basic-light;
+    padding: 5px;
+    display: inline;
+    border-radius: 5px;
 }
 
 .row-projects {
