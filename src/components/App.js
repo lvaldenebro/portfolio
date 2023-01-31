@@ -361,10 +361,10 @@ carousel */}
     <footer className="container-fluid footer section text-center">
         <div className="row">
             <nav className="nav col flex-column nav-bottom">
-                <a className="nav-link active" aria-current="page" href="#"> <span className="highlight-container"><span className="highlight">About Me</span></span></a>
-                <a className="nav-link" href="#"> <span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
-                <a className="nav-link" href="#"> <span className="highlight-container"><span className="highlight">Projects</span></span></a>
-                <a className="nav-link"  href="#"> <span className="highlight-container"><span className="highlight">Contact</span></span></a>
+                <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
+                <a className="nav-link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
+                <a className="nav-link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
+                <a className="nav-link"  href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
             </nav>
 
             <div className="col credits">
