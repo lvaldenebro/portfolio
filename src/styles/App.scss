@@ -64,7 +64,7 @@ body {
         width: 150px;
         height: 150px;
     }
-        @media all and (min-width: 480px) {
+    @media all and (min-width: 576px) {
         width: 200px;
         height: 200px;
     }
@@ -79,7 +79,7 @@ body {
     justify-content: center;
         @media all and (min-width: 992px) {
         justify-content:end;
-        padding-right: 60px;;
+        padding-right: 60px;
     }
 }
 
@@ -88,8 +88,14 @@ body {
 }
 
 .introduction-div {
-    height: 95vh;
     align-items: center;
+    // @media all and (max-width: 576px) {
+    //     padding-top: 30vh;
+    //     padding-bottom: 30vh;
+    // }
+    // @media all and (min-width: 992px) {
+        height: 95vh;
+    // }
 }
 
 .about-me {
