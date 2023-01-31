@@ -195,13 +195,8 @@ body {
         font-family: $font-title;
         font-size: large;
     }
-    &-text {
-        margin-bottom: 10px;
-    }
 }
 
-.projects {
-}
 
 .btn-imp-projects {
     background-color: $medium-light;
@@ -257,7 +252,10 @@ body {
 
 .important-projects {
     justify-content: space-around;
-    @media all and (max-width: 768px) {
-        gap: 30px;
-    }
+}
+
+.text-bg-skills {
+    background-color: $medium-light;
+    color: $basic;
+    margin: 10px;
 }

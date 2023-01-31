@@ -135,7 +135,7 @@ return (
                             <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
                             <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
                             <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
-                            <li className="list tech-stack-nologo">RESTful APIs</li>
+                            <li className="badge rounded-pill text-bg-skills">RESTful APIs</li>
                         </ul>
                     </div>
                 </div>    
@@ -151,15 +151,15 @@ return (
                     <div className="column">
                         {/* REVIEW LIST MANAGEMENT WITH BOOSTRAP */}
                         <ul>
-                            <li className="list tech-stack-nologo">Agile</li>
-                            <li className="list tech-stack-nologo">Scrum</li>
-                            <li className="list tech-stack-nologo">Communication</li>
-                            <li className="list tech-stack-nologo">Computational thinking</li>
-                            <li className="list tech-stack-nologo">Team worker</li>
-                            <li className="list tech-stack-nologo">Remote work</li>
-                            <li className="list tech-stack-nologo">Out of the box thinker</li>
-                            <li className="list tech-stack-nologo">Motivation</li>
-                            <li className="list tech-stack-nologo">Passion</li>
+                            <li className="badge rounded-pill text-bg-skills">Agile</li>
+                            <li className="badge rounded-pill text-bg-skills">Scrum</li>
+                            <li className="badge rounded-pill text-bg-skills">Communication</li>
+                            <li className="badge rounded-pill text-bg-skills">Computational thinking</li>
+                            <li className="badge rounded-pill text-bg-skills">Team worker</li>
+                            <li className="badge rounded-pill text-bg-skills">Remote work</li>
+                            <li className="badge rounded-pill text-bg-skills">Out of the box thinker</li>
+                            <li className="badge rounded-pill text-bg-skills">Motivation</li>
+                            <li className="badge rounded-pill text-bg-skills">Passion</li>
                         </ul>
                     </div>
                 </div>    
@@ -173,7 +173,7 @@ return (
                 </div>
 
                 <div className="row row-projects important-projects">
-                    <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="col-12 col-sm-6 col-xl-3 mb-4">
                         <div className="card text-center">
                             <img src={bookHostel} className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -192,7 +192,7 @@ return (
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="col-12 col-sm-6 col-xl-3 mb-4">
                         <div className="card text-center">
                             <img src={portfolio} className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -212,7 +212,7 @@ return (
                     </div>
 
                         
-                    <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="col-12 col-sm-6 col-xl-3 mb-4">
                         <div className="card text-center">
                             <img src={ bbSearcher } className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -231,7 +231,7 @@ return (
                         </div>
                     </div>
 
-                    <div className="col-12 col-sm-6 col-xl-3">
+                    <div className="col-12 col-sm-6 col-xl-3 mb-5">
                         <div className="card text-center">
                             <img src={ rmSearcher } className="card-img-top" alt="..." />
                             <div className="card-body">
