@@ -190,13 +190,23 @@ body {
     }
 }
 
-.btn {
+.btn-imp-projects {
     background-color: $medium-light;
-    border: none;
-    margin: 10px;
-    &:hover,:visited,:active {
-        font-size: 10%;
-        background-color: $medium-light;
+    padding: 20px;
+    margin: 5px;
+    :hover,:visited,:active {
+        background-color: $medium-dark;
+        border-radius: 5px;
+        transform: scale(150%);
+    }
+}
+.btn-projects {
+    background-color: $medium-light;
+    margin: 5px;
+    :hover,:visited,:active {
+        background-color: $medium-dark;
+        border-radius: 5px;
+        transform: scale(150%);
     }
 }
 

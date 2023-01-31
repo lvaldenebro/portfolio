@@ -100,8 +100,9 @@ return (
                 </div>
                 {/* TODO: REVIEW SIZING RESUMË */}
                 <div className="row text-center justify-content-center">
-                    <div className="col">              
-                        <a className="link" href="#">
+                    <div className="col">
+                        {/* TODO: REACT ROUTER   */}
+                        <a className="link btn" href="">
                             <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
                             <p><span className="highlight-container"><span className="highlight">Resumé</span></span></p>
                         </a>
@@ -160,10 +161,10 @@ return (
                                 <hr />
                                 <p className="card-text">HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB</p>
                                 <hr />
-                                {/* <a className="btn btn-primary" href="#">
+                                {/* <a className="btn btn-imp-projects" href="#">
                                     <img  className="logo" src={ webPage } alt="Demo" />
                                 </a> */}
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/book-hostel">
+                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/book-hostel">
                                     <img  className="logo" src={ code } alt="Web page's code" />
                                 </a>
                             </div>
@@ -179,10 +180,10 @@ return (
                                 <hr />
                                 <p className="card-text">HTML5 | Sass | React | Bootstrap</p>
                                 <hr />
-                                <a className="btn btn-primary" href="www.lauravaldenebro.com">
+                                <a className="btn btn-imp-projects" href="www.lauravaldenebro.com">
                                     <img  className="logo" src={ webPage } alt="Demo" />
                                 </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/portfolio">
+                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/portfolio">
                                     <img  className="logo" src={ code } alt="Web page's code" />
                                 </a>
                             </div>
@@ -199,10 +200,10 @@ return (
                                 <hr />
                                 <p className="card-text">HTML5 | Sass | JS | localeStorage | API Rest</p>
                                 <hr />
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/breaking-bad-character-searcher-js/">
+                                <a className="btn btn-imp-projects" href="https://lvaldenebro.github.io/breaking-bad-character-searcher-js/">
                                     <img  className="logo" src={ webPage } alt="Demo" />
                                 </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/breaking-bad-character-searcher-js">
+                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/breaking-bad-character-searcher-js">
                                     <img  className="logo" src={ code } alt="Web page's code" />
                                 </a>
                             </div>
@@ -218,10 +219,10 @@ return (
                                 <hr />
                                 <p className="card-text">HTML5 | Sass | React | React Router | localStorage | API Rest</p>
                                 <hr />
-                                <a className="btn btn-primary" href="https://lvaldenebro.github.io/rick-morty-character-searcher-react/">
+                                <a className="btn btn-imp-projects" href="https://lvaldenebro.github.io/rick-morty-character-searcher-react/">
                                     <img  className="logo" src={ webPage } alt="Demo" />
                                 </a>
-                                <a className="btn btn-primary" href="https://github.com/lvaldenebro/rick-morty-character-searcher-react">
+                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/rick-morty-character-searcher-react">
                                     <img  className="logo" src={ code } alt="Web page's code" />
                                 </a>
                             </div>
@@ -243,10 +244,10 @@ return (
                                     <img src={ landingPage } className="d-block w-100" alt="..."/>
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">Landing Page</h5>
-                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/landing-page/">
+                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/landing-page/">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/landing-page">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/landing-page">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -256,10 +257,10 @@ return (
                                     <img src={ criaturesBattle } className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">Criature's battle</h5>
-                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/creatures-battle/">
+                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/creatures-battle/">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/creatures-battle">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/creatures-battle">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -269,10 +270,10 @@ return (
                                     <img src={ reactRefactor } className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">React Refactor Challenge</h5>
-                                        <a className="btn btn-primary" href="https://react-refactor-challenge-production.up.railway.app/">
+                                        <a className="btn btn-projects" href="https://react-refactor-challenge-production.up.railway.app/">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/react-refactor-challenge">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/react-refactor-challenge">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -282,10 +283,10 @@ return (
                                     <img src={ minionGenerator } className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">Minion Card Generator</h5>
-                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/minion-card-generator/">
+                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/minion-card-generator/">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/minion-card-generator">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/minion-card-generator">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -295,10 +296,10 @@ return (
                                     <img src={ introductoryLanding } className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">Team Introduction Landing</h5>
-                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/team-introduction-landing/">
+                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/team-introduction-landing/">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/team-introduction-landing">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/team-introduction-landing">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -308,10 +309,10 @@ return (
                                     <img src={ adalaberManagement } className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">Adalaber's Info Management</h5>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/adalaber-management">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/adalaber-management">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/adalaber-management/">
+                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/adalaber-management/">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -321,10 +322,10 @@ return (
                                     <img src={ simpleLandingPage } className="d-block w-100" alt="..." />
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5 className="carousel-projects-title">Simple Landing Page</h5>
-                                        <a className="btn btn-primary" href="https://lvaldenebro.github.io/simple-landing-page/">
+                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/simple-landing-page/">
                                             <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
                                         </a>
-                                        <a className="btn btn-primary" href="https://github.com/lvaldenebro/simple-landing-page">
+                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/simple-landing-page">
                                             <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
                                         </a>
                                     </div>
@@ -345,25 +346,25 @@ return (
                 </div>
                 <div className="row text-center">
                     <div className="col-12 col-sm-6 col-md-3">
-                        <a className="link" href= {cvPDF} download>
+                        <a className="link btn" href= {cvPDF} download>
                             <img  className="logo contact-logo" src={ cv } title="CV" alt="Cv's icon" />
                             <p className="contact-desc">Know me!</p>
                         </a>
                     </div>
                     <div className="col-12 col-sm-6 col-md-3">
-                        <a className="link" href="https://github.com/lvaldenebro">
+                        <a className="link btn" href="https://github.com/lvaldenebro">
                             <img  className="logo contact-logo" src={ github } title= "GitHub" alt="Github's icon" />
                             <p className="contact-desc">Fork me!</p>
                         </a>
                     </div>
                     <div className="col-12 col-sm-6 col-md-3">
-                        <a className="link" href="mailto:lauravaldeal@gmai.com">
+                        <a className="link btn" href="mailto:lauravaldeal@gmai.com">
                             <img  className="logo contact-logo" src= { email } title="email" alt="Email's icon" />
                             <p className="contact-desc">Contact me!</p>
                         </a>
                     </div>
                     <div className="col-12 col-sm-6 col-md-3">
-                        <a className="link" href="https://www.linkedin.com/in/laura-valdenebro/">
+                        <a className="link btn" href="https://www.linkedin.com/in/laura-valdenebro/">
                             <img  className="logo contact-logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
                             <p className="contact-desc">Hire me!</p>
                         </a>
