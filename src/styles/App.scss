@@ -89,14 +89,9 @@ body {
 }
 
 .introduction-div {
-    align-items: center;
-    // @media all and (max-width: 576px) {
-    //     padding-top: 30vh;
-    //     padding-bottom: 30vh;
-    // }
-    // @media all and (min-width: 992px) {
-        height: 95vh;
-    // }
+    align-content: center;
+    gap: 30px;
+    height: 95vh;
 }
 
 .about-me {

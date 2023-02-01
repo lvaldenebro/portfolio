@@ -76,7 +76,6 @@ return (
         <main>
             <section className="container-fluid paper-background">
                 <div className="row introduction-div">
-                    {/* TODO: review the picture is not being centered */}
                     <div className="col-12 col-lg-5 circle-box">
                         <div className="circle">
                             <img className="img" src= {avatar} title="Laura" alt="Laura Valdenebro" />
@@ -84,7 +83,7 @@ return (
                     </div>
                     <div className="col-12 col-lg-7 text-center text-lg-start">
                         <h1 className="h1">Laura Valdenebro</h1>
-                        <p className="subtitle">Full-stack developer /</p>
+                        <p className="subtitle">Full-stack Developer /</p>
                         <p className="subtitle">Computational Linguist</p>
                         <p className="motto">Highlight your passion💙</p>
                     </div>
