@@ -104,7 +104,7 @@ return (
                 <div className="row">
                     <div className="col">
                         <h2 className="h2"><span className="highlight-container"><span className="highlight">About Me</span></span></h2>
-                        <p className="about-me_description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
+                        <p className="description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
                     </div>
                 </div>
                 {/* TODO: REVIEW SIZING RESUMË */}
@@ -183,7 +183,7 @@ return (
 
                 <div className="row row-projects important-projects">
                     <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card mx-auto">
+                        <div className="card mx-auto text-center">
                             {/* mx-auto to center the card */}
                             <img src={bookHostel} className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -203,7 +203,7 @@ return (
                     </div>
 
                     <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card mx-auto">
+                        <div className="card mx-auto text-center">
                             <img src={portfolio} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Porfolio (Welcome to the v 1.0!)</h5>
@@ -223,7 +223,7 @@ return (
 
                         
                     <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card mx-auto">
+                        <div className="card mx-auto text-center">
                             <img src={ bbSearcher } className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Breaking bad, dead or alive?</h5>
@@ -242,7 +242,7 @@ return (
                     </div>
 
                     <div className="col-12 col-sm-6 col-xl-3 mb-5">
-                        <div className="card mx-auto">
+                        <div className="card mx-auto text-center">
                             <img src={ rmSearcher } className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Rick and Morty, who is what?</h5>
@@ -402,11 +402,11 @@ return (
             <div className="row">
                 <div className="col">
                     <nav className="nav col flex-column nav-bottom">
-                        <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
-                        <a className="nav-link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
-                        <a className="nav-link" href="#soft-skills"><span className="highlight-container"><span className="highlight">Soft Skills</span></span></a>
-                        <a className="nav-link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
-                        <a className="nav-link"  href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
+                        <a className="nav-link link" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
+                        <a className="nav-link link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
+                        <a className="nav-link link" href="#soft-skills"><span className="highlight-container"><span className="highlight">Soft Skills</span></span></a>
+                        <a className="nav-link link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
+                        <a className="nav-link link"  href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
                     </nav>
                 </div>
 

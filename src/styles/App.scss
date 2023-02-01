@@ -4,7 +4,6 @@
 
 //GENERAL
 body {
-    //TODO: Add ececec to variables
     background-color: $background-light;
     font-family: $font-basic;
     color: $basic;
@@ -17,7 +16,8 @@ body {
     background-image:  repeating-linear-gradient(0deg, $background-light, $background-light 1px, $basic-light 1px, $basic-light);
 }
 
-//TODO: review if some mediaqueries can be done with boostrap
+//TODO: review posible mixins
+//components
 
 .section {
     padding: 20px;
@@ -35,24 +35,11 @@ body {
     width: 140px;
 }
 
-.nav {
-    font-family: $font-basic;
-    color: $basic;
-}
-
 .nav-link {
-    color: $basic;
     padding: 10px 15px 10px 15px;
     &:hover,:visited,:active {
         color: $dark;
         font-size: 110%;
-    }
-}
-
-.nav-top {
-    font-size: 10px;
-    @media all and (min-width: 480px) {
-        font-size: medium;
     }
 }
 
@@ -101,20 +88,14 @@ body {
     }
 }
 
-.about-me {
-    &_description {
-        padding: 20px;
-    }
-
-}
-
-.footer {
-    font-family: $font-basic;
+.description {
+    padding: 20px;
 }
 
 .h1, .subtitle, .motto {
     font-family: $font-title;
 }
+
 .h1 {
     color: $dark;
     font-size: 40px;
@@ -154,16 +135,6 @@ body {
     margin: 20px;
 }
 
-.tech-stack-nologo {
-    margin: 30px;
-    padding: 10px;
-    background-color: $medium-light;
-    font-weight: 800;
-}
-
-.contact-desc {
-    display: inline;
-}
 .contact-logo {
     margin-top: 20px;
     margin-right: 10px;
@@ -214,6 +185,8 @@ body {
     padding: 10px 3px 3px 10px;
 }
 
+
+
 .card {
     width: 18rem;
     border: 5px solid $dark;
@@ -238,7 +211,6 @@ body {
 }
 .btn-projects {
     background-color: $medium-light;
-    margin: 5px;
     :hover,:visited,:active {
         background-color: $medium-dark;
         border-radius: 5px;
