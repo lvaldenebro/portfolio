@@ -12,9 +12,9 @@ body {
 
 //BACKGROUND
 .paper-background {
-    background-color: #ffffff;
+    background-color: $basic-light;
     background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, $background-light, $background-light 1px, #ffffff 1px, #ffffff);
+    background-image:  repeating-linear-gradient(0deg, $background-light, $background-light 1px, $basic-light 1px, $basic-light);
 }
 
 //TODO: review if some mediaqueries can be done with boostrap

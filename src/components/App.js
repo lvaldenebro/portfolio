@@ -53,7 +53,7 @@ return (
         <header className="header">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/#">
                         <img className="personal-logo" src={ logo } alt="Personal logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,7 +111,7 @@ return (
                 <div className="row text-center justify-content-center">
                     <div className="col btn btn-wo-background">
                         {/* TODO: REACT ROUTER   */}
-                        <a className="link" href="">
+                        <a className="link" href="/#">
                             <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
                             <p><span className="highlight-container"><span className="highlight">Resumé</span></span></p>
                         </a>
@@ -192,7 +192,7 @@ return (
                                 <hr />
                                 <p className="card-text">HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB</p>
                                 <hr />
-                                <a className="btn btn-imp-projects disabled" href="#">
+                                <a className="btn btn-imp-projects disabled" href="/#">
                                     <img  className="logo" src={ webPage } alt="Demo" />
                                 </a>
                                 <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/book-hostel">
@@ -404,6 +404,7 @@ return (
                     <nav className="nav col flex-column nav-bottom">
                         <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
                         <a className="nav-link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
+                        <a className="nav-link" href="#soft-skills"><span className="highlight-container"><span className="highlight">Soft Skills</span></span></a>
                         <a className="nav-link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
                         <a className="nav-link"  href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
                     </nav>
