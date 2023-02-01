@@ -14,6 +14,7 @@ import reactRefactor from '../images/projects/react-refactor.png';
 import rmSearcher from '../images/projects/RM-character-searcher.png';
 import bookHostel from '../images/projects/book-hostel.png';
 import portfolio from '../images/projects/portfolio.png';
+import logo from '../images/logo.png';
 
 
 //DOCUMENTS
@@ -50,22 +51,31 @@ function App() {
 return (
     <div>
         <header className="header">
-            {/* TODO: fix hamburguer menu */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        <img className="personal-logo" src={ logo } alt="Personal logo" />
+                    </a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                    </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="nav justify-content-end nav-top navbar-nav me-auto mb-2 mb-lg-0">
+                        {/* ms-auto -> margin start */}
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
+                                <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
+                                <a className="nav-link active" aria-current="page" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
+                                <a className="nav-link active" aria-current="page" href="#soft-skills"><span className="highlight-container"><span className="highlight">Soft Skills</span></span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
+                                <a className="nav-link active" aria-current="page" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +95,7 @@ return (
                         <h1 className="h1">Laura Valdenebro</h1>
                         <p className="subtitle">Full-stack Developer /</p>
                         <p className="subtitle">Computational Linguist</p>
-                        <p className="motto">Highlight your passion💙</p>
+                        <p className="motto"><span className="highlight-container"><span className="highlight">Highlight</span></span> your passion💙</p>
                     </div>
                 </div>
             </section>
@@ -182,9 +192,9 @@ return (
                                 <hr />
                                 <p className="card-text">HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB</p>
                                 <hr />
-                                {/* <a className="btn btn-imp-projects" href="#">
+                                <a className="btn btn-imp-projects disabled" href="#">
                                     <img  className="logo" src={ webPage } alt="Demo" />
-                                </a> */}
+                                </a>
                                 <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/book-hostel">
                                     <img  className="logo" src={ code } alt="Web page's code" />
                                 </a>
@@ -251,12 +261,7 @@ return (
                     </div>
                 </div>
 
-
-
-    {/* 
-    carousel -- for less important projects*/}
-    {/* 
-    TODO:SMALLER CAROUSEL + color in the back of the title*/}
+{/* carousel */}
                 <div className="row">
                     <div className="column">
                         <div id="carouselExampleAutoplaying" className="carousel slide mx-auto" data-bs-ride="carousel">

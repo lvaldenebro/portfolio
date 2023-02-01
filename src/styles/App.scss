@@ -31,8 +31,8 @@ body {
     display: inline;
 }
 
-.header {
-    height: 5vh;
+.personal-logo {
+    width: 140px;
 }
 
 .nav {
@@ -84,6 +84,10 @@ body {
     }
 }
 
+.navbar-toggler {
+    color: $dark;
+}
+
 .logo {
     width: 50px;
 }
@@ -91,7 +95,10 @@ body {
 .introduction-div {
     align-content: center;
     gap: 30px;
-    height: 95vh;
+    height: 90vh;
+    @media all and (min-width: 992px) {
+        gap: 0px;
+    }
 }
 
 .about-me {
