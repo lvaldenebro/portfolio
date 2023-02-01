@@ -128,6 +128,15 @@ body {
     }
 }
 
+.motto {
+    color: $dark;
+    font-size: 20px;
+    margin-top: 20px;
+    @media all and (min-width: 480px) {
+        font-size: 25px;
+    }
+}
+
 .link {
     text-decoration: none;
     padding: 10px 15px 10px 15px;

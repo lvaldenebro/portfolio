@@ -82,9 +82,10 @@ return (
                             <img className="img" src= {avatar} title="Laura" alt="Laura Valdenebro" />
                         </div>
                     </div>
-                    <div className="col-12 col-lg-7 text-center text-md-start">
+                    <div className="col-12 col-lg-7 text-center text-lg-start">
                         <h1 className="h1">Laura Valdenebro</h1>
-                        <p className="subtitle">Full-stack developer</p>
+                        <p className="subtitle">Full-stack developer /</p>
+                        <p className="subtitle">Computational Linguist</p>
                         <p className="motto">Highlight your passion💙</p>
                     </div>
                 </div>
