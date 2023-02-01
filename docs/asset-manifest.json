@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3443f012.css",
-    "main.js": "./static/js/main.46323b3b.js",
+    "main.css": "./static/css/main.72187a93.css",
+    "main.js": "./static/js/main.20de77f8.js",
     "static/media/landing-page.png": "./static/media/landing-page.d503601e1bc55554d59b.png",
     "static/media/avatar.jpg": "./static/media/avatar.464c7d1fe2d5ed357768.jpg",
     "static/media/RM-character-searcher.png": "./static/media/RM-character-searcher.5d1a9a2bf0ba6b82e758.png",
@@ -17,6 +17,7 @@
     "static/media/simple-landing-page.png": "./static/media/simple-landing-page.79d1de15db303a78da0f.png",
     "static/media/criatures-battle.png": "./static/media/criatures-battle.e9419c2abf6a8261d1fb.png",
     "static/media/node.svg": "./static/media/node.b0d6c7cead1cf51d8ac0b40bf3637dce.svg",
+    "static/media/logo.png": "./static/media/logo.bbff640641eee937146c.png",
     "static/media/sqlite.svg": "./static/media/sqlite.afde1dbf5dd00a601da7a06ac858e37e.svg",
     "static/media/zeplin.svg": "./static/media/zeplin.ff185516cd78baa35506dd7fb15a3ea3.svg",
     "static/media/bash.svg": "./static/media/bash.12b9574c657e4e3629a692b1f78fdb65.svg",
@@ -37,11 +38,11 @@
     "static/media/js.svg": "./static/media/js.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "./index.html",
     "static/media/css.svg": "./static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.3443f012.css.map": "./static/css/main.3443f012.css.map",
-    "main.46323b3b.js.map": "./static/js/main.46323b3b.js.map"
+    "main.72187a93.css.map": "./static/css/main.72187a93.css.map",
+    "main.20de77f8.js.map": "./static/js/main.20de77f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3443f012.css",
-    "static/js/main.46323b3b.js"
+    "static/css/main.72187a93.css",
+    "static/js/main.20de77f8.js"
   ]
 }
