@@ -2,7 +2,6 @@
 import '../styles/App.scss';
 
 //IMAGES
-import avatar from '../images/avatar.jpg';
 import criaturesBattle from '../images/projects/criatures-battle.png';
 import landingPage from '../images/projects/landing-page.png';
 import simpleLandingPage from '../images/projects/simple-landing-page.png';
@@ -14,30 +13,13 @@ import reactRefactor from '../images/projects/react-refactor.png';
 import rmSearcher from '../images/projects/RM-character-searcher.png';
 import bookHostel from '../images/projects/book-hostel.png';
 import portfolio from '../images/projects/portfolio.png';
-import logo from '../images/logo.png';
+
 
 
 //DOCUMENTS
 import cvPDF from '../documents/Valdenebro,Laura-JuniorFullstackDeveloper.pdf';
 
 //TechStack
-
-import bash from '../images/bash.svg';
-import bootstrap from '../images/bootstrap.svg';
-import canva from '../images/canva.svg';
-import css from '../images/css.svg';
-import git from '../images/git.svg';
-import html from '../images/html.svg';
-import js from '../images/js.svg';
-import nodejs from '../images/node.svg';
-import python from '../images/python.svg';
-import react from '../images/react.svg';
-import sass from '../images/sass.svg';
-import sql from '../images/sql.svg';
-import sqlite from '../images/sqlite.svg';
-import zeplin from '../images/zeplin.svg';
-// import restApi from '../images/rest-api.svg';
-import miro from '../images/miro.png';
 
 import cv from '../images/cv.svg';
 import github from '../images/github.svg';
@@ -46,109 +28,23 @@ import linkedin from '../images/linkedin.svg';
 import code from '../images/code.svg';
 import webPage from '../images/web-page.svg';
 
+//Components
+import Header from './header/Header';
+import Introduction from './introduction/Introduction';
+import AboutMe from './aboutMe/AboutMe';
+import TechStack from './techStack/TechStack';
 
 function App() {
 return (
     <div>
-        <header className="header">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="/#">
-                        <img className="personal-logo" src={ logo } alt="Personal logo" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        {/* ms-auto -> margin start */}
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#about-me"><span className="highlight-container"><span className="highlight">About Me</span></span></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#tech-stack"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#soft-skills"><span className="highlight-container"><span className="highlight">Soft Skills</span></span></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#projects"><span className="highlight-container"><span className="highlight">Projects</span></span></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#contact"><span className="highlight-container"><span className="highlight">Contact</span></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
+        <Header />
         <main>
-            <section className="container-fluid paper-background">
-                <div className="row introduction-div">
-                    <div className="col-12 col-lg-5 circle-box">
-                        <div className="circle">
-                            <img className="img" src= {avatar} title="Laura" alt="Laura Valdenebro" />
-                        </div>
-                    </div>
-                    <div className="col-12 col-lg-7 text-center text-lg-start">
-                        <h1 className="h1">Laura Valdenebro</h1>
-                        <p className="subtitle">Full-stack Developer /</p>
-                        <p className="subtitle">Computational Linguist</p>
-                        <p className="motto"><span className="highlight-container"><span className="highlight">Highlight</span></span> your passion💙</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="about-me" className="container-fluid about-me section">
-                <div className="row">
-                    <div className="col">
-                        <h2 className="h2"><span className="highlight-container"><span className="highlight">About Me</span></span></h2>
-                        <p className="description">Horse jumping requires planning, discipline and practice, but also such a strong link between rider and animal that they act as a single being. That's me, a team player with a unique and different perspective that helps me find innovative solutions to all problems. Always in a crusade for self-explicative and super-effective code, I'm looking for a place to apply all my experience in tech while I evolve and learn as a fullstack developer. My motto: "try, learn, share".</p>
-                    </div>
-                </div>
-                {/* TODO: REVIEW SIZING RESUMË */}
-                <div className="row text-center justify-content-center">
-                    <div className="col btn btn-wo-background">
-                        {/* TODO: REACT ROUTER   */}
-                        <a className="link" href="/#">
-                            <img  className="logo" src={ cv } title="CV" alt="Cv's icon" />
-                            <p><span className="highlight-container"><span className="highlight">Resumé</span></span></p>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="tech-stack" className="container-fluid tech-stack section paper-background">
-                <div className="row">
-                    <div className="column">
-                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Tech Stack</span></span></h2>
-                    </div>
-                </div>
-                <div className="row text-center">
-                    <div className="column">
-                        <ul>
-                            <li className="list"><img className="logo tech-stack-logo" src= { html } title="html" alt="html logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { css } title="css" alt="css logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { sass } title="sass" alt="sass logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { js } title="js" alt="js logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { python } title="python" alt="python logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { bash } title="bash" alt="bash logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { git } title="git" alt="git logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { github } title="github" alt="github logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { bootstrap } title="bootstrap" alt="bootstrap logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { nodejs } title="nodejs" alt="nodejs logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { sql } title="sql" alt="sql logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { sqlite } title="sqlite" alt="sqlite logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { zeplin } title="zeplin" alt="zeplin logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { canva } title="canva" alt="canva logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { react } title="react" alt="react logo" /></li>
-                            <li className="list"><img className="logo tech-stack-logo" src= { miro } title="miro" alt="miro logo" /></li>
-                            <li className="badge rounded-pill text-bg-skills">RESTful APIs</li>
-                        </ul>
-                    </div>
-                </div>    
-            </section>
+            <Introduction />
+{/* LOS TÏTULOS TIENEN QUE SER UN COMPONENT ÜNICO */}
+{/* REVISAR TODO LO REUTILIZABLE */}
+            <AboutMe />
+            <TechStack />
+            
 
             <section id="soft-skills" className="container-fluid soft-skills section paper-background">
                 <div className="row">
