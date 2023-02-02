@@ -2,17 +2,7 @@
 import '../styles/App.scss';
 
 //IMAGES
-import criaturesBattle from '../images/projects/criatures-battle.png';
-import landingPage from '../images/projects/landing-page.png';
-import simpleLandingPage from '../images/projects/simple-landing-page.png';
-import adalaberManagement from '../images/projects/adalaber-management.png';
-import minionGenerator from '../images/projects/minion-generator.png';
-import bbSearcher from '../images/projects/BB-character-searcher.png';
-import introductoryLanding from '../images/projects/introductory-landing.png';
-import reactRefactor from '../images/projects/react-refactor.png';
-import rmSearcher from '../images/projects/RM-character-searcher.png';
-import bookHostel from '../images/projects/book-hostel.png';
-import portfolio from '../images/projects/portfolio.png';
+
 
 
 
@@ -25,14 +15,15 @@ import cv from '../images/cv.svg';
 import github from '../images/github.svg';
 import email from '../images/email.svg';
 import linkedin from '../images/linkedin.svg';
-import code from '../images/code.svg';
-import webPage from '../images/web-page.svg';
+
 
 //Components
 import Header from './header/Header';
 import Introduction from './introduction/Introduction';
 import AboutMe from './aboutMe/AboutMe';
 import TechStack from './techStack/TechStack';
+import SoftSkills from './softSkills/SoftSkills';
+import Projects from './projects/Projects';
 
 function App() {
 return (
@@ -44,221 +35,12 @@ return (
 {/* REVISAR TODO LO REUTILIZABLE */}
             <AboutMe />
             <TechStack />
+            <SoftSkills />
+            <Projects />
+
             
 
-            <section id="soft-skills" className="container-fluid soft-skills section paper-background">
-                <div className="row">
-                    <div className="column">
-                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Soft skills</span></span></h2>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="column text-center">
-                        {/* REVIEW LIST MANAGEMENT WITH BOOSTRAP */}
-                        <ul>
-                            <li className="badge rounded-pill text-bg-skills">Agile</li>
-                            <li className="badge rounded-pill text-bg-skills">Scrum</li>
-                            <li className="badge rounded-pill text-bg-skills">Communication</li>
-                            <li className="badge rounded-pill text-bg-skills">Computational thinking</li>
-                            <li className="badge rounded-pill text-bg-skills">Team worker</li>
-                            <li className="badge rounded-pill text-bg-skills">Remote work</li>
-                            <li className="badge rounded-pill text-bg-skills">Out of the box thinker</li>
-                            <li className="badge rounded-pill text-bg-skills">Motivation</li>
-                            <li className="badge rounded-pill text-bg-skills">Passion</li>
-                        </ul>
-                    </div>
-                </div>    
-            </section>
-
-            <section id="projects" className="container-fluid section projects">
-                <div className="row row-projects">
-                    <div className="col">
-                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Projects</span></span></h2>
-                    </div>
-                </div>
-
-                <div className="row row-projects important-projects">
-                    <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card mx-auto text-center">
-                            {/* mx-auto to center the card */}
-                            <img src={bookHostel} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">BookHostel (under construction)</h5>
-                                <p className="card-text">A page in which exchange freely your old books</p>
-                                <hr />
-                                <p className="card-text">HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB</p>
-                                <hr />
-                                <a className="btn btn-imp-projects disabled" href="/#">
-                                    <img  className="logo" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/book-hostel">
-                                    <img  className="logo" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card mx-auto text-center">
-                            <img src={portfolio} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Porfolio (Welcome to the v 1.0!)</h5>
-                                <p className="card-text">Portfolio actively being improved to show what I can do</p>
-                                <hr />
-                                <p className="card-text">HTML5 | Sass | React | Bootstrap</p>
-                                <hr />
-                                <a className="btn btn-imp-projects" href="www.lauravaldenebro.com">
-                                    <img  className="logo" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/portfolio">
-                                    <img  className="logo" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                        
-                    <div className="col-12 col-sm-6 col-xl-3 mb-4">
-                        <div className="card mx-auto text-center">
-                            <img src={ bbSearcher } className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Breaking bad, dead or alive?</h5>
-                                <p className="card-text">Breaking Bad based character searcher</p>
-                                <hr />
-                                <p className="card-text">HTML5 | Sass | JS | localeStorage | API Rest</p>
-                                <hr />
-                                <a className="btn btn-imp-projects" href="https://lvaldenebro.github.io/breaking-bad-character-searcher-js/">
-                                    <img  className="logo" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/breaking-bad-character-searcher-js">
-                                    <img  className="logo" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-sm-6 col-xl-3 mb-5">
-                        <div className="card mx-auto text-center">
-                            <img src={ rmSearcher } className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Rick and Morty, who is what?</h5>
-                                <p className="card-text">Rick and Morty's based character searcher</p>
-                                <hr />
-                                <p className="card-text">HTML5 | Sass | React | React Router | localStorage | API Rest</p>
-                                <hr />
-                                <a className="btn btn-imp-projects" href="https://lvaldenebro.github.io/rick-morty-character-searcher-react/">
-                                    <img  className="logo" src={ webPage } alt="Demo" />
-                                </a>
-                                <a className="btn btn-imp-projects" href="https://github.com/lvaldenebro/rick-morty-character-searcher-react">
-                                    <img  className="logo" src={ code } alt="Web page's code" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-{/* carousel */}
-                <div className="row">
-                    <div className="column">
-                        <div id="carouselExampleAutoplaying" className="carousel slide mx-auto" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img src={ landingPage } className="d-block w-100" alt="..."/>
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">Landing Page</h5>
-                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/landing-page/">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/landing-page">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <img src={ criaturesBattle } className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">Criature's battle</h5>
-                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/creatures-battle/">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/creatures-battle">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <img src={ reactRefactor } className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">React Refactor Challenge</h5>
-                                        <a className="btn btn-projects" href="https://react-refactor-challenge-production.up.railway.app/">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/react-refactor-challenge">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <img src={ minionGenerator } className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">Minion Card Generator</h5>
-                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/minion-card-generator/">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/minion-card-generator">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <img src={ introductoryLanding } className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">Team Introduction Landing</h5>
-                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/team-introduction-landing/">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/team-introduction-landing">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <img src={ adalaberManagement } className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">Adalaber's Info Management</h5>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/adalaber-management">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/adalaber-management/">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item" data-bs-interval="2000">
-                                    <img src={ simpleLandingPage } className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5 className="carousel-projects-title">Simple Landing Page</h5>
-                                        <a className="btn btn-projects" href="https://lvaldenebro.github.io/simple-landing-page/">
-                                            <img  className="logo logo-carousel" src={ webPage } alt="Demo" />
-                                        </a>
-                                        <a className="btn btn-projects" href="https://github.com/lvaldenebro/simple-landing-page">
-                                            <img  className="logo logo-carousel" src={ code } alt="Web page's code" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    {/* 
-    carousel */}
-            </section>
+            
 
             <section id="contact"className="container-fluid contact section paper-background">
                 <div className="row">
