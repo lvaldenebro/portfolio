@@ -2,7 +2,7 @@
 
 //Components
 import Title from '../general/Title';
-import ImportantProjects from './ImportantProjects';
+import ProjectsImportant from './ProjectsImportant';
 import Carousel from './Carousel';
 
 //Generic
@@ -16,14 +16,14 @@ const Projects = () => {
         <section id="projects" className="container-fluid section projects">
             <div className="row row-projects">
                 <div className="col">
-                <Title title="projects"/>
+                    <Title title="projects"/>
                 </div>
             </div>
             
-            <ImportantProjects/>   
+            <ProjectsImportant/>   
             <Carousel/>
 
-            </section>
+        </section>
 )};
 
 export default Projects;

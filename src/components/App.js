@@ -32,8 +32,6 @@ return (
         <Header />
         <main>
             <Introduction />
-{/* LOS TÏTULOS TIENEN QUE SER UN COMPONENT ÜNICO */}
-{/* REVISAR TODO LO REUTILIZABLE */}
             <AboutMe />
             <TechStack />
             <SoftSkills />

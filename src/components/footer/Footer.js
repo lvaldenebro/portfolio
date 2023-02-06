@@ -1,16 +1,19 @@
 import NavList from '../general/NavList';
+import Arrow from './Arrow';
 import Credits from './Credits';
 
 const Footer = () => {
     return (
         <footer className="container-fluid footer section text-center">
-        <div className="row">
-            <div className="col">
-                <NavList />
+            <Arrow />
+            <div className="row">
+                <div className="col">
+                    <NavList />
+                </div>
+
+                <Credits />
             </div>
 
-            <Credits />
-        </div>
     </footer>
 )};
 

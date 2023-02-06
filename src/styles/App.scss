@@ -96,6 +96,10 @@ body {
     font-family: $font-title;
 }
 
+.h1, .subtitle {
+    text-transform: capitalize;
+}
+
 .h1 {
     color: $dark;
     font-size: 40px;
@@ -118,6 +122,10 @@ body {
     @media all and (min-width: 480px) {
         font-size: 25px;
     }
+}
+
+.section-title {
+    text-transform: capitalize;
 }
 
 .link {
@@ -143,6 +151,10 @@ body {
 .footer {
     margin-top: 60px;
     font-size: 12px;
+}
+
+.nav-height {
+    line-height: 1px;
 }
 
 .credits {
@@ -251,4 +263,9 @@ body {
     font-size: 18px;
     color: $basic;
     margin: 10px;
+}
+
+.arrow {
+    display:flex;
+    justify-content: end;
 }

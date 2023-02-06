@@ -10,7 +10,7 @@ import ProjectCard from './ProjectCard';
 const ImportantProjects = () => {
     
     return (
-        <div className="col-12 col-sm-6 col-xl-3 mb-4">
+        <div className="row row-projects important-projects">
             {/* //Src + card-title + desc + techs + ink web + link gith */}
             <ProjectCard src={ bookHostel } title="BookHostel (under construction)" desc="A page in which exchange freely your old books" techStack="HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB" web="https://github.com/lvaldenebro/book-hostel" github="https://github.com/lvaldenebro/book-hostel"/>
 
@@ -19,7 +19,7 @@ const ImportantProjects = () => {
             <ProjectCard src={ bbSearcher } title="Breaking bad, dead or alive?" desc="Breaking Bad based character searcher" techStack="HTML5 | Sass | JS | localeStorage | API Rest" web="https://github.com/lvaldenebro/breaking-bad-character-searcher-js" github="https://github.com/lvaldenebro/breaking-bad-character-searcher-js"/>
 
             <ProjectCard src={ rmSearcher } title="Rick and Morty, who is what?" desc="Rick and Morty, who is what?" techStack="HTML5 | Sass | React | React Router | localStorage | API Rest" web="https://github.com/lvaldenebro/rick-morty-character-searcher-react" github="https://github.com/lvaldenebro/rick-morty-character-searcher-react"/>
-        </div>    
+        </div>
 )};
 
 export default ImportantProjects;
