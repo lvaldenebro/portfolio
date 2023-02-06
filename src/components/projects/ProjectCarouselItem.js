@@ -1,7 +1,7 @@
 import code from '../../images/code.svg';
 import webPage from '../../images/web-page.svg';
 
-const ProjectCarouselItem = (props) => {
+const ProjectCarouselItem = ( props ) => {
     
     return (
         <div className="carousel-item active">

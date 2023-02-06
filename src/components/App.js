@@ -7,14 +7,13 @@ import '../styles/App.scss';
 
 
 //DOCUMENTS
-import cvPDF from '../documents/Valdenebro,Laura-JuniorFullstackDeveloper.pdf';
 
 //TechStack
 
-import cv from '../images/cv.svg';
-import github from '../images/github.svg';
-import email from '../images/email.svg';
-import linkedin from '../images/linkedin.svg';
+// import cv from '../images/cv.svg';
+// import github from '../images/github.svg';
+// import email from '../images/email.svg';
+// import linkedin from '../images/linkedin.svg';
 
 
 //Components
@@ -24,6 +23,7 @@ import AboutMe from './aboutMe/AboutMe';
 import TechStack from './techStack/TechStack';
 import SoftSkills from './softSkills/SoftSkills';
 import Projects from './projects/Projects';
+import Contact from './contact/Contact';
 
 function App() {
 return (
@@ -37,44 +37,8 @@ return (
             <TechStack />
             <SoftSkills />
             <Projects />
+            <Contact />
 
-            
-
-            
-
-            <section id="contact"className="container-fluid contact section paper-background">
-                <div className="row">
-                    <div className="col">
-                        <h2 className="h2"><span className="highlight-container"><span className="highlight">Contact</span></span></h2>
-                    </div>
-                </div>
-                <div className="row text-center">
-                    <div className="col-6 col-md-3 btn btn-wo-background">
-                        <a className="link btn" href= {cvPDF} download>
-                            <img  className="logo contact-logo" src={ cv } title="CV" alt="Cv's icon" />
-                            <p className="contact-desc">Know me!</p>
-                        </a>
-                    </div>
-                    <div className="col-6 col-md-3 btn btn-wo-background">
-                        <a className="link btn" href="https://github.com/lvaldenebro">
-                            <img  className="logo contact-logo" src={ github } title= "GitHub" alt="Github's icon" />
-                            <p className="contact-desc">Fork me!</p>
-                        </a>
-                    </div>
-                    <div className="col-6 col-md-3 btn btn-wo-background">
-                        <a className="link btn" href="mailto:lauravaldeal@gmai.com">
-                            <img  className="logo contact-logo" src= { email } title="email" alt="Email's icon" />
-                            <p className="contact-desc">Contact me!</p>
-                        </a>
-                    </div>
-                    <div className="col-6 col-md-3 btn btn-wo-background">
-                        <a className="link btn" href="https://www.linkedin.com/in/laura-valdenebro/">
-                            <img  className="logo contact-logo" src={ linkedin } title="linkedin" alt="Linkedin's icon" />
-                            <p className="contact-desc">Hire me!</p>
-                        </a>
-                    </div>
-                </div>
-            </section>
         </main>
         <footer className="container-fluid footer section text-center">
             <div className="row">
