@@ -1,5 +1,5 @@
 import PersonalLogo from './PersonalLogo';
-import NavList from './NavList';
+import NavList from '../general/NavList';
 
 const Header = () => {
     return (
