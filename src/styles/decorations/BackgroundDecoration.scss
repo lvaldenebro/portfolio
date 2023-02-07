@@ -1,0 +1,5 @@
+.paper-background {
+    background-color: $basic-light;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, $light, $light 1px, $basic-light 1px, $basic-light);
+}

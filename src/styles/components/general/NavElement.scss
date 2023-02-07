@@ -1,0 +1,7 @@
+.nav-link {
+    padding: 10px 15px 10px 15px;
+    &:hover,:visited,:active {
+        color: $dark;
+        font-size: 110%;
+    }
+}

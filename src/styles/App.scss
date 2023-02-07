@@ -1,11 +1,18 @@
 //IMPORTS
+//core
 @import "core/Reset";
 @import "core/Variables";
 
 //components scss
+//general
+@import "components/general/NavElement";
+@import "components/general/NavList";
 //header
 @import "components/header/Header";
 @import "components/header/PersonalLogo";
+//aboutMe
+@import "components/aboutMe/Description";
+@import "components/aboutMe/ResumeSection";
 //introduction
 @import "components/introduction/Introduction";
 @import "components/introduction/AvatarCircle";
@@ -13,6 +20,7 @@
 //techStack
 @import "components/techStack/TechElement";
 //softSkills
+@import "components/softSkills/SkillsElement";
 //projects
 @import "components/projects/Projects";
 @import "components/projects/Carousel";
@@ -24,6 +32,10 @@
 @import "components/footer/Footer";
 @import "components/footer/Credits";
 
+//other styles
+@import "decorations/BackgroundDecoration";
+@import "decorations/Highlights";
+
 //GENERAL
 body {
     background-color: $light;
@@ -31,16 +43,7 @@ body {
     color: $basic;
 }
 
-//BACKGROUND
-.paper-background {
-    background-color: $basic-light;
-    background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, $light, $light 1px, $basic-light 1px, $basic-light);
-}
-
-//TODO: review posible mixins
-//components
-
+//APPLY TO ALL PAGE
 .section {
     padding: 20px;
     @media all and (min-width: 480px) {
@@ -53,24 +56,8 @@ body {
     display: inline;
 }
 
-.nav-link {
-    padding: 10px 15px 10px 15px;
-    &:hover,:visited,:active {
-        color: $dark;
-        font-size: 110%;
-    }
-}
-
 .logo {
     width: 50px;
-}
-
-.description {
-    padding: 20px;
-}
-
-.section-title {
-    text-transform: capitalize;
 }
 
 .link {
@@ -82,62 +69,6 @@ body {
     color: $dark;
     font-size: 110%;
     }
-}
-
-.nav-height {
-    line-height: 1px;
-}
-
-
-//HIGHLIGHTS
-.container {
-    line-height: 1.4;
-    text-align: center;
-    padding: 44px;
-}
-.highlight-container, .highlight {
-    position: relative;
-}
-
-.highlight-container {
-    display: inline-block;
-}
-.highlight-container:before {
-    content: " ";
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-left: -3px;
-    margin-right: -3px;
-    position: absolute;
-    background: $medium-dark;
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
-    border-radius: 20% 25% 20% 24%;
-    padding: 10px 3px 3px 10px;
-}
-
-.btn-projects {
-    background-color: $medium-light;
-    :hover,:visited,:active {
-        background-color: $medium-dark;
-        border-radius: 5px;
-        transform: scale(150%);
-    }
-}
-
-.btn-wo-background {
-    :hover,:visited,:active {
-        transform: scale(120%);
-    }
-}
-
-.text-bg-skills {
-    background-color: $medium-light;
-    font-size: 18px;
-    color: $basic;
-    margin: 10px;
 }
 
 .arrow {

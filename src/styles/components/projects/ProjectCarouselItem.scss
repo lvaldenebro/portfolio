@@ -9,3 +9,12 @@
     display: inline;
     border-radius: 5px;
 }
+
+.btn-projects {
+    background-color: $medium-light;
+    :hover,:visited,:active {
+        background-color: $medium-dark;
+        border-radius: 5px;
+        transform: scale(150%);
+    }
+}
