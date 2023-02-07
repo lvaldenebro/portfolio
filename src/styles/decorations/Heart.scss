@@ -9,3 +9,7 @@
     stroke: $basic;
     @include heart;
 }
+
+@keyframes beat {
+	to { transform: scale(1.4); }
+}

@@ -4,5 +4,6 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     transform: rotate(10deg);
-    margin-left: 3px;
+    margin-left: 6px;
+    animation: beat 1.5s infinite alternate;
 }
