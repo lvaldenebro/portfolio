@@ -71,5 +71,10 @@ body {
     &:hover,:visited,:active {
     color: $dark;
     font-size: 110%;
+    border: transparent;
     }
+}
+
+.btn {
+    border: transparent;
 }
