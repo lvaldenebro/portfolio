@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This Portoflio wants to be a small piece that shows what can I do while playing with new technologies and learning for them. From heere, you can easily access to my project in order of importance, as well as you can review the code and see how I approach the use of new technologies.
 
-In the project directory, you can run:
+Welcome to my Play Place!
 
-### `npm start`
+## Design & Color Reference
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The design of this web site is a personal attempt of creating something unique and distinctive, at the same time that shows a little of my personality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The color reference is taken from www.colorhunt.com and the colors are:
 
-### `npm test`
+- #ada2ff
+- #c0deff
+- #ffe5f1
+- #fff8e1
+- pure black
+- pure white
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The idea under this colors is to represent the notebook we used to use to learn in the school, as this is my new learning place. I always loved highlights so I though, why not?
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a SPA built over React with create-react-app, as the idea of this project is that it will be changed and improved, this v 1.0 is componentized taking into account the future scalability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+THe list of technologies is: React, React Router DOM, propTypes, HTML5 and Bootstrap (as base) modified with Sass.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to use the project
 
-### `npm run eject`
+It is a Static SPA so the use is pretty simple. The interactivity is limited to the two nav bars located in the top and the back of the page, and he icons of contact or the projects. For contact, just click on the icon or the sentences that goes with it and it will open for you the corresponding place you are trying to reach. With the the projects is similar, just click into the web navigation or into the github navigation to see the code or the demo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you really want to install this project in you computer, you need to follow this easy steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `npm install` to create the node_modules folder
+- `npm start` to run the demo in your computer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Otherwise, remember that you can reach the demo in both: [lvaldenebro.github.io/portfolio/](lvaldenebro.github.io/portfolio/) or www.lauravaldenebro.com
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_TO BE ADDED_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Optimizations ans Further Work
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- I will add proptypes to check if props are WAI
+- Add testing to check if they links WAI
+- etc.
