@@ -1,0 +1,32 @@
+.h1, .subtitle, .motto {
+    font-family: $font-title;
+}
+
+.h1, .subtitle {
+    text-transform: capitalize;
+}
+
+.h1 {
+    color: $dark;
+    font-size: 40px;
+    @media all and (min-width: 480px) {
+        font-size: 60px;
+    }
+}
+
+.subtitle, .motto {
+    color: $medium-dark;
+    font-size: 30px;
+    @media all and (min-width: 480px) {
+        font-size: 40px;
+    }
+}
+
+.motto {
+    color: $dark;
+    font-size: 20px;
+    margin-top: 20px;
+    @media all and (min-width: 480px) {
+        font-size: 25px;
+    }
+}

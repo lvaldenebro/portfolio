@@ -10,7 +10,7 @@ import ProjectCard from './ProjectCard';
 const ImportantProjects = () => {
     
     return (
-        <div className="row row-projects important-projects">
+        <div className="row row-projects">
             {/* //Src + card-title + desc + techs + ink web + link gith */}
             <ProjectCard src={ bookHostel } title="BookHostel (under construction)" desc="A page in which exchange freely your old books" techStack="HTML5 | Sass | React | Bootstrap | API Rest | NextJS | ExpressJS | DB" web="https://github.com/lvaldenebro/book-hostel" github="https://github.com/lvaldenebro/book-hostel"/>
 

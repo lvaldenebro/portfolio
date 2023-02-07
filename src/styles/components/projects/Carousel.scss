@@ -1,0 +1,9 @@
+.carousel {
+    border: 5px solid $medium-dark;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70vw;
+    @media all and (min-width: 1200px) {
+        width: 40vw;
+    }
+}

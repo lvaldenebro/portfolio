@@ -3,7 +3,7 @@ import NavList from '../general/NavList';
 
 const Header = () => {
     return (
-        <header className="header" id="header">
+        <header id="header">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <PersonalLogo />

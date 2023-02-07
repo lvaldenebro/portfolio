@@ -13,7 +13,7 @@ import Carousel from './Carousel';
 const Projects = () => {
     
     return (
-        <section id="projects" className="container-fluid section projects">
+        <section id="projects" className="container-fluid section">
             <div className="row row-projects">
                 <div className="col">
                     <Title title="projects"/>

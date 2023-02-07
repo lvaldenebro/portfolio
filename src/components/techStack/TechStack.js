@@ -4,7 +4,7 @@ import Title from '../general/Title';
 const TechStack = () => {
     
     return (
-        <section id="tech-stack" className="container-fluid tech-stack section paper-background">
+        <section id="tech-stack" className="container-fluid section paper-background">
                 <div className="row">
                     <div className="column">
                         <Title href='tech-stack' title='tech stack'/>

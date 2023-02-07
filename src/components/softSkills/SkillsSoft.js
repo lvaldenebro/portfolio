@@ -4,7 +4,7 @@ import SkillsList from './SkillsList'
 const SoftSkills = () => {
     
     return (
-        <section id="soft-skills" className="container-fluid soft-skills section paper-background">
+        <section id="soft-skills" className="container-fluid section paper-background">
                 <div className="row">
                     <div className="column">
                         <Title title="soft skills"/>

@@ -2,9 +2,31 @@
 @import "core/Reset";
 @import "core/Variables";
 
+//components scss
+//header
+@import "components/header/Header";
+@import "components/header/PersonalLogo";
+//introduction
+@import "components/introduction/Introduction";
+@import "components/introduction/AvatarCircle";
+@import "components/introduction/TextIntroduction";
+//techStack
+@import "components/techStack/TechElement";
+//softSkills
+//projects
+@import "components/projects/Projects";
+@import "components/projects/Carousel";
+@import "components/projects/ProjectCard";
+@import "components/projects/ProjectCarouselItem";
+//contact
+@import "components/contact/ContactElementDownload";
+//footer
+@import "components/footer/Footer";
+@import "components/footer/Credits";
+
 //GENERAL
 body {
-    background-color: $background-light;
+    background-color: $light;
     font-family: $font-basic;
     color: $basic;
 }
@@ -13,7 +35,7 @@ body {
 .paper-background {
     background-color: $basic-light;
     background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, $background-light, $background-light 1px, $basic-light 1px, $basic-light);
+    background-image:  repeating-linear-gradient(0deg, $light, $light 1px, $basic-light 1px, $basic-light);
 }
 
 //TODO: review posible mixins
@@ -31,10 +53,6 @@ body {
     display: inline;
 }
 
-.personal-logo {
-    width: 140px;
-}
-
 .nav-link {
     padding: 10px 15px 10px 15px;
     &:hover,:visited,:active {
@@ -43,85 +61,12 @@ body {
     }
 }
 
-.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    @media all and (min-width: 480px) {
-        width: 150px;
-        height: 150px;
-    }
-    @media all and (min-width: 576px) {
-        width: 200px;
-        height: 200px;
-    }
-    img {
-        height: 100%;
-        margin: 0 auto;
-    }
-}
-
-.circle-box {
-    display:flex;
-    justify-content: center;
-        @media all and (min-width: 992px) {
-        justify-content:end;
-        padding-right: 60px;
-    }
-}
-
-.navbar-toggler {
-    color: $dark;
-}
-
 .logo {
     width: 50px;
 }
 
-.introduction-div {
-    align-content: center;
-    gap: 30px;
-    height: 90vh;
-    @media all and (min-width: 992px) {
-        gap: 0px;
-    }
-}
-
 .description {
     padding: 20px;
-}
-
-.h1, .subtitle, .motto {
-    font-family: $font-title;
-}
-
-.h1, .subtitle {
-    text-transform: capitalize;
-}
-
-.h1 {
-    color: $dark;
-    font-size: 40px;
-    @media all and (min-width: 480px) {
-        font-size: 60px;
-    }
-}
-.subtitle, .motto {
-    color: $medium-dark;
-    font-size: 30px;
-    @media all and (min-width: 480px) {
-        font-size: 40px;
-    }
-}
-
-.motto {
-    color: $dark;
-    font-size: 20px;
-    margin-top: 20px;
-    @media all and (min-width: 480px) {
-        font-size: 25px;
-    }
 }
 
 .section-title {
@@ -139,30 +84,10 @@ body {
     }
 }
 
-.tech-stack-logo {
-    margin: 20px;
-}
-
-.contact-logo {
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.footer {
-    margin-top: 60px;
-    font-size: 12px;
-}
-
 .nav-height {
     line-height: 1px;
 }
 
-.credits {
-    line-height: 20px;
-    @media all and (min-width: 576px) {
-        margin-top: 20px;
-    }
-}
 
 //HIGHLIGHTS
 .container {
@@ -193,30 +118,6 @@ body {
     padding: 10px 3px 3px 10px;
 }
 
-
-
-.card {
-    width: 18rem;
-    border: 5px solid $dark;
-    border-radius: 15px;
-    padding: 5px;
-    &-title {
-        font-family: $font-title;
-        font-size: large;
-    }
-}
-
-
-.btn-imp-projects {
-    background-color: $medium-light;
-    padding: 20px;
-    margin: 5px;
-    :hover,:visited,:active {
-        background-color: $medium-dark;
-        border-radius: 5px;
-        transform: scale(150%);
-    }
-}
 .btn-projects {
     background-color: $medium-light;
     :hover,:visited,:active {
@@ -230,32 +131,6 @@ body {
     :hover,:visited,:active {
         transform: scale(120%);
     }
-}
-
-.carousel {
-    border: 5px solid $medium-dark;
-    border-radius: 15px;
-    padding: 10px;
-    width: 70vw;
-    @media all and (min-width: 1200px) {
-        width: 40vw;
-    }
-}
-
-.logo-carousel {
-    width: 25px;
-}
-
-.carousel-projects-title {
-    background-color: $basic;
-    color: $basic-light;
-    padding: 5px;
-    display: inline;
-    border-radius: 5px;
-}
-
-.row-projects {
-    margin-top: 20px;
 }
 
 .text-bg-skills {

@@ -1,0 +1,8 @@
+.introduction-div {
+    align-content: center;
+    gap: 30px;
+    height: 90vh;
+    @media all and (min-width: 992px) {
+        gap: 0px;
+    }
+}
