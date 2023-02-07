@@ -1,0 +1,11 @@
+.heart {
+    width: 35px;
+    stroke: $dark;
+    @include heart;
+}
+
+.heart-footer {
+    width: 20px;
+    stroke: $basic;
+    @include heart;
+}

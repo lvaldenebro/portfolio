@@ -8,7 +8,6 @@ const Footer = () => {
                 <div className="col">
                     <NavList />
                 </div>
-
                 <Credits />
             </div>
 

@@ -1,0 +1,8 @@
+@mixin heart {
+    stroke-width: 1.5px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform: rotate(10deg);
+    margin-left: 3px;
+}

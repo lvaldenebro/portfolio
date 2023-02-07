@@ -2,11 +2,13 @@
 //core
 @import "core/Reset";
 @import "core/Variables";
+@import "core/Mixins";
 
 //components scss
 //general
 @import "components/general/NavElement";
 @import "components/general/NavList";
+@import "components/general/Title";
 //header
 @import "components/header/Header";
 @import "components/header/PersonalLogo";
@@ -35,6 +37,7 @@
 //other styles
 @import "decorations/BackgroundDecoration";
 @import "decorations/Highlights";
+@import "decorations/Heart";
 
 //GENERAL
 body {

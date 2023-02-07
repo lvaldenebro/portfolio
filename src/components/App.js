@@ -1,21 +1,6 @@
 // STYLES
 import '../styles/App.scss';
 
-//IMAGES
-
-
-
-
-//DOCUMENTS
-
-//TechStack
-
-// import cv from '../images/cv.svg';
-// import github from '../images/github.svg';
-// import email from '../images/email.svg';
-// import linkedin from '../images/linkedin.svg';
-
-
 //Components
 import Header from './header/Header';
 import Introduction from './introduction/Introduction';
