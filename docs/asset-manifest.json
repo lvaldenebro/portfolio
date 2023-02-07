@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.72187a93.css",
-    "main.js": "./static/js/main.20de77f8.js",
+    "main.css": "./static/css/main.7f8a2b08.css",
+    "main.js": "./static/js/main.50beffac.js",
     "static/media/landing-page.png": "./static/media/landing-page.d503601e1bc55554d59b.png",
     "static/media/avatar.jpg": "./static/media/avatar.464c7d1fe2d5ed357768.jpg",
     "static/media/RM-character-searcher.png": "./static/media/RM-character-searcher.5d1a9a2bf0ba6b82e758.png",
@@ -14,11 +14,14 @@
     "static/media/adalaber-management.png": "./static/media/adalaber-management.8b51066aa4b1d0ae1a0a.png",
     "static/media/miro.png": "./static/media/miro.a3e782ed376f44d8bfc2.png",
     "static/media/minion-generator.png": "./static/media/minion-generator.83d475c618ee325d17d3.png",
-    "static/media/simple-landing-page.png": "./static/media/simple-landing-page.79d1de15db303a78da0f.png",
+    "static/media/mysql.png": "./static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/api.png": "./static/media/api.09cfa4bbb0a15fba28eb.png",
     "static/media/criatures-battle.png": "./static/media/criatures-battle.e9419c2abf6a8261d1fb.png",
+    "static/media/simple-landing-page.png": "./static/media/simple-landing-page.6ea59a1f11c78e13546f.png",
     "static/media/node.svg": "./static/media/node.b0d6c7cead1cf51d8ac0b40bf3637dce.svg",
-    "static/media/logo.png": "./static/media/logo.bbff640641eee937146c.png",
+    "static/media/logo-yellow.png": "./static/media/logo-yellow.b10eb8dde9abdd2c2ea8.png",
     "static/media/sqlite.svg": "./static/media/sqlite.afde1dbf5dd00a601da7a06ac858e37e.svg",
+    "static/media/json.png": "./static/media/json.c99595094a931d536845.png",
     "static/media/zeplin.svg": "./static/media/zeplin.ff185516cd78baa35506dd7fb15a3ea3.svg",
     "static/media/bash.svg": "./static/media/bash.12b9574c657e4e3629a692b1f78fdb65.svg",
     "static/media/canva.svg": "./static/media/canva.945c343ea2f707d50ef916d33663c3c2.svg",
@@ -38,11 +41,11 @@
     "static/media/js.svg": "./static/media/js.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "./index.html",
     "static/media/css.svg": "./static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.72187a93.css.map": "./static/css/main.72187a93.css.map",
-    "main.20de77f8.js.map": "./static/js/main.20de77f8.js.map"
+    "main.7f8a2b08.css.map": "./static/css/main.7f8a2b08.css.map",
+    "main.50beffac.js.map": "./static/js/main.50beffac.js.map"
   },
   "entrypoints": [
-    "static/css/main.72187a93.css",
-    "static/js/main.20de77f8.js"
+    "static/css/main.7f8a2b08.css",
+    "static/js/main.50beffac.js"
   ]
 }
