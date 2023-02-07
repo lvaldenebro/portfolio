@@ -3,8 +3,8 @@ import cvPDF from '../../documents/Valdenebro,Laura-JuniorFullstackDeveloper.pdf
 const ResumeSection = () => {
     
     return (
-        <div className="row text-center justify-content-center">
-            <div className="col btn btn-wo-background">
+        <div className="row text-center justify-content-around">
+            <div className="col-2 btn btn-wo-background">
                 {/* TODO: REACT ROUTER   */}
                 <a className="link" href={ cvPDF } download>
                     {/* <img  className="logo" src={ cv } title="CV" alt="Cv's icon" /> */}
