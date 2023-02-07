@@ -45,7 +45,7 @@ Otherwise, remember that you can reach the demo in both: [lvaldenebro.github.io/
 
 ## License
 
-MIT License
+[MIT License](LICENSE.md)
 
 ## Optimizations ans Further Work
 
