@@ -1,6 +1,6 @@
 import cvPDF from '../../documents/Valdenebro,Laura-JuniorFullstackDeveloper.pdf';
 
-const ResuméSection = () => {
+const ResumeSection = () => {
     
     return (
         <div className="row text-center justify-content-center">
@@ -14,4 +14,4 @@ const ResuméSection = () => {
         </div>
 )};
 
-export default ResuméSection;
+export default ResumeSection;
