@@ -24,25 +24,25 @@ const TechList = () => {
     
     return (
         <ul>
-            <TechElement logo={html} namelogo="html" />
-            <TechElement logo={css} namelogo="css" />
-            <TechElement logo={sass} namelogo="sass" />
-            <TechElement logo={bootstrap} namelogo="bootstrap" />
-            <TechElement logo={js} namelogo="js" />
-            <TechElement logo={react} namelogo="react" />
-            <TechElement logo={python} namelogo="python" />
-            <TechElement logo={nodejs} namelogo="nodejs" />
-            <TechElement logo={json} namelogo="json" />
-            <TechElement logo={sql} namelogo="sql" />
-            <TechElement logo={sqlite} namelogo="sqlite" />
-            <TechElement logo={mysql} namelogo="mysql" />
-            <TechElement logo={bash} namelogo="bash" />
-            <TechElement logo={git} namelogo="git" />
-            <TechElement logo={github} namelogo="github" />
-            <TechElement logo={zeplin} namelogo="zeplin" />
-            <TechElement logo={canva} namelogo="canva" />
-            <TechElement logo={miro} namelogo="miro" />
-            <TechElement logo={api} namelogo="api" />
+            <TechElement logo={html} nameLogo="HTML" />
+            <TechElement logo={css} nameLogo="CSS" />
+            <TechElement logo={sass} nameLogo="Sass" />
+            <TechElement logo={bootstrap} nameLogo="Bootstrap" />
+            <TechElement logo={js} nameLogo="JavaScript" />
+            <TechElement logo={react} nameLogo="ReactJS" />
+            <TechElement logo={python} nameLogo="Python" />
+            <TechElement logo={nodejs} nameLogo="NodeJS" />
+            <TechElement logo={json} nameLogo="JSON" />
+            <TechElement logo={sql} nameLogo="SQL" />
+            <TechElement logo={sqlite} nameLogo="SQLite" />
+            <TechElement logo={mysql} nameLogo="MySQL" />
+            <TechElement logo={bash} nameLogo="Bash" />
+            <TechElement logo={git} nameLogo="git" />
+            <TechElement logo={github} nameLogo="gitHub" />
+            <TechElement logo={zeplin} nameLogo="Zeplin" />
+            <TechElement logo={canva} nameLogo="Canva" />
+            <TechElement logo={miro} nameLogo="Miro" />
+            <TechElement logo={api} nameLogo="API" />
         </ul>
 )};
 
