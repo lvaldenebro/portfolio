@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.7f8a2b08.css",
-    "main.js": "./static/js/main.59a299c1.js",
+    "main.css": "./static/css/main.08ba7ec3.css",
+    "main.js": "./static/js/main.cfd786cc.js",
     "static/media/landing-page.png": "./static/media/landing-page.d503601e1bc55554d59b.png",
     "static/media/avatar.jpg": "./static/media/avatar.464c7d1fe2d5ed357768.jpg",
     "static/media/RM-character-searcher.png": "./static/media/RM-character-searcher.5d1a9a2bf0ba6b82e758.png",
     "static/media/book-hostel.png": "./static/media/book-hostel.57146fc780515e76cf7e.png",
-    "static/media/Valdenebro,Laura-JuniorFullstackDeveloper.pdf": "./static/media/Valdenebro,Laura-JuniorFullstackDeveloper.a1f6cd002509207e60f7.pdf",
     "static/media/BB-character-searcher.png": "./static/media/BB-character-searcher.bc4c55a860f4def553b4.png",
+    "static/media/Valdenebro,Laura-JuniorFullstackDeveloper.pdf": "./static/media/Valdenebro,Laura-JuniorFullstackDeveloper.fa8f5b84564e7c07a43b.pdf",
     "static/media/portfolio.png": "./static/media/portfolio.90061da864dc70e1f10f.png",
     "static/media/introductory-landing.png": "./static/media/introductory-landing.c25745140320638fe2d2.png",
     "static/media/react-refactor.png": "./static/media/react-refactor.3219abeb0964fbef2248.png",
@@ -41,11 +41,11 @@
     "static/media/js.svg": "./static/media/js.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "./index.html",
     "static/media/css.svg": "./static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.7f8a2b08.css.map": "./static/css/main.7f8a2b08.css.map",
-    "main.59a299c1.js.map": "./static/js/main.59a299c1.js.map"
+    "main.08ba7ec3.css.map": "./static/css/main.08ba7ec3.css.map",
+    "main.cfd786cc.js.map": "./static/js/main.cfd786cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f8a2b08.css",
-    "static/js/main.59a299c1.js"
+    "static/css/main.08ba7ec3.css",
+    "static/js/main.cfd786cc.js"
   ]
 }
