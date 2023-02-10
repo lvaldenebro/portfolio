@@ -18,3 +18,18 @@
         transform: scale(150%);
     }
 }
+
+.carousel-info {
+    justify-content: space-between;
+}
+
+.carousel-projects-title-box {
+    display: flex;
+    align-items: end;
+}
+
+.carousel-projects-logos-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
