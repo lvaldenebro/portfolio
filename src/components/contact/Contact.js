@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="row text-center">
                     <ContactElementDownload href={ cvPDF } src={ cv } title="cv" alt="cv" text="Know me!" />
                     <ContactElement href="https://github.com/lvaldenebro" src={ github } title="github" alt="github" text="Fork me!" />
-                    <ContactElement href="mailto:lauravaldeal@gmai.com" src={ email } title="email" alt="email" text="Contact me!" />
+                    <ContactElement href="mailto:valdenebrolaura@gmail.com" src={ email } title="email" alt="email" text="Contact me!" />
                     <ContactElement href="https://www.linkedin.com/in/laura-valdenebro/" src={ linkedin } title="linkedin" alt="linkedin" text="Hire me!" />
                 </div>
             </section>
