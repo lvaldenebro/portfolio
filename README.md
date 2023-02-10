@@ -8,7 +8,7 @@ Welcome to my Playground!
 
 ## Design & Color Reference
 
-The design of this web site is a personal attempt to create something unique and distinctive, while at the same time showing a little of my personality.
+The design of this web site is a personal attempt to create something unique and distinctive, while at the same time showing a little of my personality. It is responsible, with a mobile-first approach, so you can access to it using any device.
 
 The color reference is taken from www.colorhunt.com and the colors are:
 
