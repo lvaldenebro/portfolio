@@ -1,7 +1,7 @@
 const Credits = () => {
     
     return (
-        <div className="col credits">
+        <div className="col credits text-center">
             <p>Designed and built by Laura Valdenebro | 2023</p>
             <p><span className="highlight-container"><span className="highlight">Highlight</span></span> your passion!<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-heart heart-footer" viewBox="0 0 24 24">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
